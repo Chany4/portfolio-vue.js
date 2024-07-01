@@ -33,15 +33,32 @@
   #navBar{
     background-color: rgb(255, 174, 174);
     z-index: 2;
-    /* position:sticky; */
   }
   
   .nav-link {
     color: ghostwhite;
     font-weight: bold;
   }  
+.section{
+    min-height: 100vh;
+    max-height: 100%;
+    padding: 40px;
+    background-color: pink;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    margin-bottom: 100vh;
+}
 
 
+ /* Landing Section */
+
+ #Landing {
+    width: 100%;
+    background-color: pink;
+    max-width: max-content;
+    color: white;
+}
 
    /* Media Queries */
   

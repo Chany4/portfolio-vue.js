@@ -1,10 +1,10 @@
 <template lang="">
   <div class="Wrapper">
-    <!-- <section id= "main">
+    <section class="section" id= "main">
       <LandingComp/>
     </section>
 
-    <section id= "aboutSection">
+    <!-- <section id= "aboutSection">
     </section>
     <AboutComp/>
     
@@ -26,7 +26,7 @@
   </div>
 </template>
 <script>
-// import LandingComp from '@/components/LandingComp.vue'
+import LandingComp from '@/components/LandingComp.vue'
 // import AboutComp from '@/components/AboutComp.vue'
 // import ResumeComp from '@/components/ResumeComp.vue'
 // import ProjectsComp from '@/components/ProjectsComp.vue'
@@ -35,15 +35,15 @@
 
 export default {
   components : {
-  //   LandingComp,
-  //   AboutComp,
-  //   ResumeComp,
-  //   ProjectsComp,
-  //   TestimonialsComp,
-  //   ContactComp
-  // }
+    LandingComp
+    // AboutComp,
+    // ResumeComp,
+    // ProjectsComp,
+    // TestimonialsComp,
+    // ContactComp
   }
-}
+  }
+
 </script>
 <style lang="">
   
