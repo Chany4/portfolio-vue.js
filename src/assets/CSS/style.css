@@ -1,0 +1,82 @@
+::-webkit-scrollbar{
+    display: none;
+}
+::before,
+::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.Wrapper{
+    background-image: url('https://chany4.github.io/images.Portfolio/images/Desktop%20-%2020.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    min-height: 100vh;
+    object-fit: contain;
+    background-color: white;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    max-width: 100vw;
+    min-height: 100vh;
+    max-height: 100%;
+}
+
+.nav{
+    background-color: rgb(255, 174, 174);
+    z-index: 2;
+  }
+  #navBar{
+    background-color: rgb(255, 174, 174);
+    z-index: 2;
+    /* position:sticky; */
+  }
+  
+  .nav-link {
+    color: ghostwhite;
+    font-weight: bold;
+  }  
+
+
+
+   /* Media Queries */
+  
+
+/* xs*/
+@media only screen and (max-width: 600px) {
+    .Wrapper {
+        background-size: contain;
+    }
+}
+
+/* sm */
+@media only screen and (min-width: 600px) {
+    .Wrapper {
+        background-size: contain;
+    }
+}
+
+/* md */
+@media only screen and (min-width: 768px) {
+    .Wrapper {
+        background-size: cover;
+    }
+}
+
+/* lg */
+@media only screen and (min-width: 992px) {
+    .Wrapper {
+        background-size: cover;
+    }
+}
+
+/*xxl*/
+@media only screen and (min-width: 1200px) {
+    main {
+        background-size: contain;
+    }
+}
