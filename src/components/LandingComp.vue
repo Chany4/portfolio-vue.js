@@ -39,7 +39,6 @@ export default {
 },
 mounted() {
     this.getjobTitleData
-    // console.log(this.$store.state.jobTitle)
 }
 
 }

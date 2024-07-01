@@ -4,11 +4,11 @@
       <LandingComp/>
     </section>
 
-    <!-- <section id= "aboutSection">
+    <section class="aboutSection" id= "aboutSection">
+      <AboutComp/>
     </section>
-    <AboutComp/>
     
-    <section id= "Resume">
+    <!-- <section id= "Resume">
       <ResumeComp/>
     </section>
 
@@ -27,7 +27,7 @@
 </template>
 <script>
 import LandingComp from '@/components/LandingComp.vue'
-// import AboutComp from '@/components/AboutComp.vue'
+import AboutComp from '@/components/AboutComp.vue'
 // import ResumeComp from '@/components/ResumeComp.vue'
 // import ProjectsComp from '@/components/ProjectsComp.vue'
 // import TestimonialsComp from '@/components/TestiomonialsComp.vue'
@@ -35,8 +35,8 @@ import LandingComp from '@/components/LandingComp.vue'
 
 export default {
   components : {
-    LandingComp
-    // AboutComp,
+    LandingComp,
+    AboutComp
     // ResumeComp,
     // ProjectsComp,
     // TestimonialsComp,
