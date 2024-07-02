@@ -1,7 +1,7 @@
 <template>
     <div>
          <!-- About Section -->
-      <div class="container" id="about">
+      <div class="container" id="about" v-for="about in aboutData()" :key="about">
         <div class="row">
           <div class="col-lg-4" id="self2-div">
             <img
@@ -15,11 +15,7 @@
               <h4>About Me</h4>
               <br />
               <p id="brief-Para">
-                My name is Chandré Leigh Davids. I am a hard working individual
-                who is always up for a challenge no matter how tedious it may
-                seem. I absoloutely love learning new things. This is showcased
-                through the fact that I am currently learning three languages,
-                aside from coding, which are Mandarin, Korean and Arabic.
+                {{about.aboutBrief}}
               </p>
               <br />
             </div>
@@ -75,7 +71,20 @@
 </template>
 <script>
 export default {
-    
+    methods:{
+        aboutData(){
+            return this.$store.state.about
+    },
+  },
+    computed: {
+        getaboutData(){
+            return this.$store.dispatch('getData')
+    },
+},
+mounted() {
+    this.getaboutData
+}
+
 }
 </script>
 <style>

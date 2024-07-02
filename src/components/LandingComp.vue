@@ -7,17 +7,17 @@
             <div class="home-text">
               <h1 class="text-capitalize">{{job.title}}</h1>
               <h3>{{ job.nameInJob }}</h3>
-              <p>
+              <p id="p-landing">
                 {{ job.jobBrief }}
               </p>
             </div>
           </div>
-          <div class="col-md-4">
+          <div class="col-md-4" id="self3-div">
             <img
               src="https://chany4.github.io/images.Portfolio/images/self3.jpg"
-              class="w-50"
+              class="mx-auto"
               alt="self3"
-              id="self3"
+              
             />
           </div>
         </div>
@@ -43,5 +43,13 @@ mounted() {
 
 }
 </script>
-<style></style>
+<style scoped>
+img{
+  /* width: 70%; */
+}
+#self3-div{
+  object-fit: contain;
+  object-position: center;
+}
+</style>
     
