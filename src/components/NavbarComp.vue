@@ -40,6 +40,11 @@
               <ul class="dropdown-menu">
                 <li>
                   <a class="dropdown-item" href="#aboutSection"
+                    ><button type="button" class="btn">Detailed</button></a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#aboutSection"
                     ><button
                       type="button"
                       class="btn"
@@ -48,11 +53,6 @@
                     >
                       Brief
                     </button></a
-                  >
-                </li>
-                <li>
-                  <a class="dropdown-item" href="#aboutSection"
-                    ><button type="button" class="btn">Detailed</button></a
                   >
                 </li>
               </ul>

@@ -1,46 +1,46 @@
 <template lang="">
   <div class="Wrapper">
-    <section class="section" id= "main">
+    <section class="section Landing" id= "main">
       <LandingComp/>
     </section>
 
-    <section class="aboutSection" id= "aboutSection">
+    <section class="section about" id= "aboutSection">
       <AboutComp/>
     </section>
     
-    <!-- <section id= "Resume">
+    <section class="section space-resume" id= "Resume">
       <ResumeComp/>
     </section>
 
-    <section id= "projects">
+    <section class="section space-projects" id= "projects">
       <ProjectsComp/>
     </section>
     
-    <section id= "testimonials">
+    <section  class="section space" id= "testimonials">
       <TestimonialsComp/>
     </section>
     
-    <section id= "contact">
+    <section class="section" id="contact">
       <ContactComp/>
-    </section> -->
+    </section>
   </div>
 </template>
 <script>
 import LandingComp from '@/components/LandingComp.vue'
 import AboutComp from '@/components/AboutComp.vue'
-// import ResumeComp from '@/components/ResumeComp.vue'
-// import ProjectsComp from '@/components/ProjectsComp.vue'
-// import TestimonialsComp from '@/components/TestiomonialsComp.vue'
-// import ContactComp from '@/components/ContactComp.vue'
+import ResumeComp from '@/components/ResumeComp.vue'
+import ProjectsComp from '@/components/ProjectsComp.vue'
+import TestimonialsComp from '@/components/TestimonialsComp.vue'
+import ContactComp from '@/components/ContactComp.vue'
 
 export default {
   components : {
     LandingComp,
-    AboutComp
-    // ResumeComp,
-    // ProjectsComp,
-    // TestimonialsComp,
-    // ContactComp
+    AboutComp,
+    ResumeComp,
+    ProjectsComp,
+    TestimonialsComp,
+    ContactComp
   }
   }
 

@@ -1,3 +1,20 @@
+/* fonts */
+
+/* Amatic SC */
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap');
+/* Chewy */
+@import url('https://fonts.googleapis.com/css2?family=Bangers&family=Chewy&display=swap');
+/* Ubuntu Sans Mono */
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Sans+Mono:ital,wght@0,400..700;1,400..700&display=swap');
+/* structure */
+
+:root{
+    --light-pink : #FFCCCC;
+    --pale-green: #98FB98;
+    --pale-green-opaque: #98fb98da;
+
+}
+
 ::-webkit-scrollbar{
     display: none;
 }
@@ -26,12 +43,9 @@
     max-height: 100%;
 }
 
-.nav{
-    background-color: rgb(255, 174, 174);
-    z-index: 2;
-  }
-  #navBar{
-    background-color: rgb(255, 174, 174);
+
+  nav{
+    background-color: var(--light-pink);
     z-index: 2;
   }
   
@@ -43,39 +57,104 @@
     min-height: 100vh;
     max-height: 100%;
     padding: 40px;
-    background-color: pink;
+    background-color: var(--pale-green);
     display: flex;
     flex-flow: column nowrap;
     justify-content: center;
-    margin-bottom: 100vh;
 }
+.space{
+    margin-bottom: 33vh;
+
+}
+
+body, html{
+    
+    overflow-x: hidden;
+    /* margin-bottom: 60px; */
+    margin: 0;
+    padding: 0;
+}
+  #logo{
+    color: white;
+  }
+
+  footer{
+    background-color: white;
+    border-top: 1px solid black;
+    margin-top: 10px;
+    color: black;
+    padding: 20px;
+  }
+  .footer-Para{
+    margin: 5px;
+    margin-top: 10px;
+    color: black;
+  }
+  
+  #gitPic{
+    width: 50px;
+    height: 50px;
+    border: 1px;
+    border-radius: 50px;
+  }
+
+ 
+  a{
+    text-decoration: none;
+  }
+ #p-landing{
+    color: black;
+    font-size: 1.2rem;
+ }
+  #p{
+    font-family: "Ubuntu Sans Mono", monospace;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: bold;
+    color: black;
+  }
+  li {
+    font-family: "Ubuntu Sans Mono", monospace;
+  font-optical-sizing: auto;
+  font-weight: bold;
+  font-style: normal;
+  color: black;
+  }
+
+  modal-dialog{
+    width: 800px;
+  }
 
 
  /* Landing Section */
-
  #Landing {
     width: 100%;
-    background-color: pink;
     max-width: max-content;
     color: white;
 }
 
 /* About */
 
-.aboutSection{
+.about{
+    background-color: var(--pale-green-opaque);
+}
+
+#aboutSection{
     min-height: 100vh;
     max-height: 100%;
     padding: 20px;
-    background-color: white;
+    /* background-color: white; */
     display: flex;
     flex-flow: column nowrap;
     justify-content: center;
-    margin-bottom: 100vh;
 
 }
 
+#staticBackdropLabel{
+    color: black;
+}
+
 #about{
-    background-color: rgba(255, 0, 0, 0.541);
     color: white;
     padding: 30px;
   }
@@ -88,11 +167,101 @@
     padding-top:15px ;
 }
 #brief-Para{
-    background-color: rgb(226, 68, 68);
     padding: 20px;
     padding-bottom: 50px;
 }
 
+/* Resume Section */
+.space-resume{
+    background-image: linear-gradient(135deg,#ff8db7, #ffb7d2, #dfbbc7, #d193b4, #dfbbc7,#fdb3da, #ffb7d2, #ff8db7);
+
+}
+#resume{
+    padding: 4%;
+    max-width: max-content;
+}  
+#self3 {
+    width: 90%;
+    height: 97%;
+    object-fit: cover;
+    display: block;
+    max-width: 100%;
+    padding-top:15px ;
+}
+
+/* Projects */
+.space-projects{
+    background-color: #ff46ac8e;
+}
+
+/* Testiomonial Section */
+
+.testimonials .carousel-container .carousel-inner {
+    height: 550px;
+  }
+  
+  .testimonials .carousel-container .carousel-inner img {
+    height: 300px;
+    margin: 0 auto;
+  }
+  
+  .testimonials .carousel-container .carousel-inner .carousel-caption {
+    background-color: green;
+    border-radius: 20px;
+    color: #ff70b5;
+    font-weight: bold;
+    margin: -200px;
+  }
+  
+
+/* contact me */
+
+.get-in-touch{
+    color: rgb(134, 176, 63);
+    font-family: "Chewy", system-ui;
+    font-weight: 400;
+    font-style: normal
+  
+  }
+  #contact-section{
+    display: flex;
+    justify-content: center;
+  }
+  #contact{
+    margin: auto;
+    width: 700px;
+    padding: 30px;
+  }
+  label{
+    width: 92%;
+  }
+  input{
+    width: 100%;
+  }
+  
+  textarea{
+    width: 100%;
+    height: 200px;
+  }
+  
+  #clear{
+    object-fit: contain;
+    background-color: #c00066;
+    color: white;
+  }
+  
+  #submit{
+    object-fit: contain;
+    background-color: #c00066;
+    color: white;
+  }
+  
+  #buttonDiv{
+    display: flex;
+    justify-content: center;
+    margin: 5px;
+  }
+  
    /* Media Queries */
   
 
