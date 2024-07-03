@@ -3,16 +3,9 @@
          <!-- About Section -->
       <div class="container" id="about" v-for="about in aboutData()" :key="about">
         <div class="row">
-          <div class="col-lg-4" id="self2-div">
-            <img
-              src= "https://chany4.github.io/images.Portfolio/images/self3.jpg"
-              alt="self2"
-              id="self2"
-            />
-          </div>
-          <div class="col-lg-8">
+          <div class="col-lg-7">
             <div class="box">
-              <h4>About Me</h4>
+              <h4 id="aboutMeLabel">About Me</h4>
               <br />
               <p id="brief-Para">
                 {{about.aboutBrief}}
@@ -63,6 +56,13 @@
               <!-- End of modal -->
             </div>
           </div>
+          <div class="col-lg-5" id="self2-div">
+            <img
+              src= "https://chany4.github.io/images.Portfolio/images/IMG_20240702_144032.jpg"
+              alt="self2"
+              id="self2"
+            />
+          </div>
         </div>
       </div>
 
@@ -87,6 +87,18 @@ mounted() {
 
 }
 </script>
-<style>
+<style scoped>
+div{
+  object-fit: contain;
+}
+img{
+  object-fit: contain;
+  padding: 0;
+  margin: 0;
+  min-width: 100%;
+  min-height: 100%;
+  border-radius: 25px;
+  border: 1px solid black;
+}
     
 </style>

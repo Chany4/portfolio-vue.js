@@ -5,8 +5,8 @@
   <div class = "container-lg py-4" data-aos="zoom-in-right">
     <div class = "row justify-content-center" >
       <div class="col-lg-8">
-        <div class = "section-title text-center " >
-          <h2 class = "fw-bold mb-5">Testimonials</h2>
+        <div class = "section-title text-center " id="testimonialLabel">
+          <h1 class = "fw-bold mb-5">Testimonials</h1>
         </div>
      </div>
     </div>
@@ -95,5 +95,13 @@ export default {
 <style scoped>
     img{
       width:50%;
+    }
+    h1{
+      font-size: 9rem;
+      font-family: "Chathura", sans-serif;
+    }
+    #testimonialLabel{
+      display: flex;
+      justify-content: flex-start ;
     }
 </style>
