@@ -14,7 +14,7 @@
           </div>
           <div class="col-md-4" id="self3-div">
             <img
-              src="https://chany4.github.io/images.Portfolio/images/self3.jpg"
+              src="https://chany4.github.io/images.Portfolio/images/20240422_114648.jpg"
               class="mx-auto"
               alt="self3"
               
@@ -44,12 +44,20 @@ mounted() {
 }
 </script>
 <style scoped>
-img{
-  /* width: 70%; */
+h1{
+  font-family: "Antic Didone", serif;
+}
+h3{
+  font-family: "Oranienbaum", serif;
 }
 #self3-div{
   object-fit: contain;
   object-position: center;
+}
+
+p{
+  font-family: "Chathura", sans-serif;
+  font-size: 140px;
 }
 </style>
     

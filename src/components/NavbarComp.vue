@@ -6,7 +6,7 @@
           class="navbar-brand fw-bold fs-4 mx-5"
           href="#main"
           title="click on me" id="logo"
-          >CHANDRÉ</a
+          >CHANDRE</a
         >
         <button
           class="navbar-toggler"
@@ -80,3 +80,9 @@ export default {
     
 }
 </script>
+<style scoped>
+    .nav-link {
+    color: ghostwhite;
+    font-weight: bold;
+  }  
+</style>

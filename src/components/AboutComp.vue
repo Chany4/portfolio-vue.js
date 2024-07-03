@@ -5,7 +5,7 @@
         <div class="row">
           <div class="col-lg-4" id="self2-div">
             <img
-              src="https://chany4.github.io/images.Portfolio/images/20240422_114648.jpg"
+              src= "https://chany4.github.io/images.Portfolio/images/self3.jpg"
               alt="self2"
               id="self2"
             />
