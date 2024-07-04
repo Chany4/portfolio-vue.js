@@ -59,6 +59,7 @@ h3{
   font-family: "Antic Didone", serif;
   font-size: 1.9rem;
   margin-top: 5%;
+  font-weight: bolder;
 }
 #self3-div{
   object-fit: contain;
@@ -75,6 +76,30 @@ p{
 .lab{
   color: black;
   font-size: 4rem;
+}
+.lab{
+  color: black;
+  font-size: 3rem;
+  animation: float 3s ease-in-out infinite;
+}
+.lab ::before{
+  box-sizing: border-box;
+}
+.lab ::after{
+  box-sizing: border-box;
+}
+
+@keyframes float {
+  0%{
+    transform: translateY(0px);
+  }
+  50%{
+    transform: translateY(-10px);
+    scale:1.1;
+  }
+  100%{
+    transform: rotateY(0px);
+  }
 }
 </style>
     

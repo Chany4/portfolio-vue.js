@@ -20,8 +20,13 @@
 
 /* structure */
 
+#app{
+  width: 100vw;
+  overflow-x: hidden;
+}
+
 :root{
-    --pale-pink: #FBC7CD;
+    --pale-pink: #fcd1d6;
     --nav-bar-black: #000000;
     /* Linear gradient */
     --linear-peach-pink: #FDE8E9;
@@ -120,10 +125,7 @@ body, html{
   a{
     text-decoration: none;
   }
- #p-landing{
-    color: black;
-    font-size: 1.2rem;
- }
+
   #p{
     font-family: "Chathura", sans-serif;
     font-size: 2rem;
@@ -151,7 +153,10 @@ body, html{
     max-width: max-content;
     color: white;
 }
-
+#p-landing{
+  color: black;
+  font-size: 1.2rem;
+}
 /* About */
 
 
@@ -189,7 +194,6 @@ body, html{
     object-fit: cover;
     display: block;
     max-width: 100%;
-    padding-top:15px ;
 }
 #brief-Para{
     padding: 20px;
@@ -244,13 +248,6 @@ body, html{
 
 /* contact me */
 
-.get-in-touch{
-    color: rgb(134, 176, 63);
-    font-family: "Chewy", system-ui;
-    font-weight: 400;
-    font-style: normal
-  
-  }
  
   label{
     width: 92%;

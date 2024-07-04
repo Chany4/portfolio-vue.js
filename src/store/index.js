@@ -38,7 +38,8 @@ export default createStore({
   },
   actions: {
     async getData({commit}){
-      let fetchInfo = await fetch('https://chany4.github.io/portfolio-vue.js-API/data/data.json')
+      try{
+        let fetchInfo = await fetch('https://chany4.github.io/portfolio-vue.js-API/data/data.json')
       let data = await fetchInfo.json()
       console.log(data);
       let { jobTitle,about,education,workExp,skill,projects,testimonials} = data
@@ -50,6 +51,11 @@ export default createStore({
       commit('setskill',skill)
       commit('setprojects',projects)
       commit('settestimonials',testimonials)
+      }
+      catch (error){
+        console.log(error);
+      }
+      
       
     }
   },
