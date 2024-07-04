@@ -1,8 +1,8 @@
 <template>
   <div>
     <div class="row" >
-        <div class="col" v-for="card in projectsData()" :key="card">
-            <div class="card my-3" style="width: 40rem">
+        <div class="col-md-6" v-for="card in projectsData()" :key="card">
+            <div class="card my-3">
         <img :src="card.image" class="card-img-top" alt="project-image" />
         <div class="card-body">
           <h5 class="card-title">{{card.name}}</h5>
@@ -48,5 +48,7 @@ mounted() {
 .card , .card-body{
   border: 1px solid black;
 }
+
+
 
 </style>
