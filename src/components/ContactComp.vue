@@ -15,9 +15,39 @@
       </div>
       <!--  -->
       <div class="row">
-        <div class="col-6"></div>
-        <div class="col-6">
-          <form action="https://formspree.io/f/movaqnze" method="post" target="_blank">
+        <div class="col-md-6 pt-4">
+          <div class="col">
+            <ul>
+              <li>
+                <i class="las la-envelope"></i>
+                <p>chandreleighdavids04052005@gmail.com</p>
+              </li>
+              <li>
+                <i class="las la-phone-volume"></i>
+                <p>+27 73 325 3129</p>
+              </li>
+              <li>
+                <i class="las la-map-marker-alt"></i>
+                <p>Rockalnds, Mitchell's Plain</p>
+              </li>
+              <li>
+                <a href="https://www.linkedin.com/in/chandre-leigh-davids-872022318/"><i class="lab la-linkedin"></i></a>
+                <p>Chandre Leigh Davids</p>
+              </li>
+              <li>
+                <i class="lab la-github"></i>
+                <p>Chany4</p>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <!--  -->
+        <div class="col-md-6">
+          <form
+            action="https://formspree.io/f/movaqnze"
+            method="post"
+            target="_blank"
+          >
             <div class="group my-4">
               <input required="" type="text" class="input" />
               <span class="highlight"></span>
@@ -48,35 +78,76 @@
               <span class="highlight"></span>
               <span class="bar"></span>
             </div>
-            
-           <div class="d-flex justify-content-center">
-            <div class="d-flex justify-content-center align-content-center mx-3">
-              <div class="button-borders">
-              <input type="submit" class="primary-button" />
-            </div>
-            </div>
-            <div class="d-flex justify-content-center align-content-center mx-3">
-              <div class="button-borders">
-              <input type="reset" class="primary-button" />
-            </div>
-            </div>
 
-           </div>
+            <div class="d-flex justify-content-center">
+              <div
+                class="d-flex justify-content-center align-content-center mx-2"
+              >
+                <div class="button-borders">
+                  <input type="submit" class="primary-button" />
+                </div>
+              </div>
+              <div
+                class="d-flex justify-content-center align-content-center mx-2"
+              >
+                <div class="button-borders">
+                  <button type="reset" class="primary-button">Clear</button>
+                </div>
+              </div>
+            </div>
           </form>
-
         </div>
       </div>
     </div>
   </div>
 </template>
 <script>
-
 // do a v-if and v-else
-export default {
-  }
-
+export default {};
 </script>
 <style scoped>
+a{
+  text-decoration: none;
+  color: black;
+}
+ul li {
+  list-style: none;
+}
+
+ul > li > p {
+  font-size: 80%;
+}
+
+label {
+  width: 92%;
+}
+input {
+  width: 100%;
+}
+
+textarea {
+  width: 100%;
+  height: 200px;
+}
+
+#clear {
+  object-fit: contain;
+  background-color: #c00066;
+  color: white;
+}
+
+#submit {
+  object-fit: contain;
+  background-color: #c00066;
+  color: white;
+}
+
+#buttonDiv {
+  display: flex;
+  justify-content: center;
+  margin: 5px;
+}
+
 #experiment {
   background-color: white;
   max-height: 100wh;
@@ -99,7 +170,7 @@ h5 {
   font-family: "Chathura", sans-serif;
   font-size: 4rem;
 }
-.x{
+.x {
   margin-right: 50%;
 }
 
@@ -189,6 +260,10 @@ label {
 #submitBtn {
   background-color: black;
   color: white;
+}
+p{
+  font-family: "Chathura", sans-serif;
+  font-size: 180%;
 }
 
 /*  */

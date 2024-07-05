@@ -27,7 +27,7 @@
     <section class="section" id="contact">
       <ContactComp/>
     </section>
-
+    
     <section class="footer">
       <FooterComp/>
     </section>
@@ -43,6 +43,7 @@ import ProjectsComp from '@/components/ProjectsComp.vue'
 import TestimonialsComp from '@/components/TestimonialsComp.vue'
 import ContactComp from '@/components/ContactComp.vue'
 import FooterComp from '@/components/FooterComp.vue'
+// import SpinnerComp from '@/components/SpinnerComp.vue'
 
 
 export default {
@@ -55,6 +56,7 @@ export default {
     TestimonialsComp,
     ContactComp,
     FooterComp
+    // SpinnerComp
   }
   }
 

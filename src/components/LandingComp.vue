@@ -50,6 +50,16 @@ mounted() {
 }
 </script>
 <style scoped>
+
+ #Landing {
+    width: 100%;
+    max-width: max-content;
+    color: white;
+}
+#p-landing{
+  color: black;
+  font-size: 1.2rem;
+}
 h1{
   font-family: "Antic Didone", serif;
   font-size: 4rem;
