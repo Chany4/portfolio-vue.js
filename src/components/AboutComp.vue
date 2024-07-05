@@ -36,7 +36,9 @@
                         aria-label="Close"
                       ></button>
                     </div>
-                    <div class="modal-body" style="height: 400px;"></div>
+                    <div class="modal-body" style="height: 400px;">
+                      <p class="p">{{ about.aboutBrief2 }}</p>
+                    </div>
                     <div class="modal-footer">
                       <a href="file.jpg" download="">
                         <button type="button" class="btn">
@@ -83,6 +85,53 @@ mounted() {
 }
 </script>
 <style scoped>
+.p{
+  color: black;
+  font-family: "Chathura", sans-serif; 
+  font-size: 180%;
+}
+
+#aboutSection{
+    min-height: 100vh;
+    max-height: 100%;
+    padding: 20px;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    background-image: linear-gradient(#FFC0CB,#FFFEFA , #FFC0CB);
+
+}
+
+#staticBackdropLabel{
+    color: black;
+}
+
+#about{
+    color: white;
+    padding: 30px;
+  }
+
+#aboutMeLabel{
+  color: black;
+  font-family: "Chathura", sans-serif; 
+  font-size: 9rem;
+  top: 0;
+
+}
+  #self2{
+    width: 80%;
+    height: 80%;
+    object-fit: cover;
+    display: block;
+    max-width: 100%;
+}
+#brief-Para{
+    padding: 20px;
+    padding-bottom: 50px;
+    color: black;
+    font-family: "Chathura", sans-serif;
+    font-size: 1.9rem;
+}
 
 .btn {
   display: flex;

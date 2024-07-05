@@ -38,7 +38,7 @@
 }
 
 ::-webkit-scrollbar{
-    display: none;
+    display: display;
 }
 ::before,
 ::after{
@@ -157,51 +157,7 @@ body, html{
   color: black;
   font-size: 1.2rem;
 }
-/* About */
 
-
-#aboutSection{
-    min-height: 100vh;
-    max-height: 100%;
-    padding: 20px;
-    /* background-color: white; */
-    display: flex;
-    flex-flow: column nowrap;
-    justify-content: center;
-    background-image: linear-gradient(#FFC0CB,#FFFEFA , #FFC0CB);
-
-}
-
-#staticBackdropLabel{
-    color: black;
-}
-
-#about{
-    color: white;
-    padding: 30px;
-  }
-
-#aboutMeLabel{
-  color: black;
-  font-family: "Chathura", sans-serif; 
-  font-size: 9rem;
-  top: 0;
-
-}
-  #self2{
-    width: 80%;
-    height: 80%;
-    object-fit: cover;
-    display: block;
-    max-width: 100%;
-}
-#brief-Para{
-    padding: 20px;
-    padding-bottom: 50px;
-    color: black;
-    font-family: "Chathura", sans-serif;
-    font-size: 1.9rem;
-}
 
 /* Resume Section */
 
@@ -226,59 +182,7 @@ body, html{
     background-color:var(--linear-peach-pink)
 }
 
-/* Testiomonial Section */
 
-.testimonials .carousel-container .carousel-inner {
-    height: 550px;
-  }
-  
-  .testimonials .carousel-container .carousel-inner img {
-    height: 300px;
-    margin: 0 auto;
-  }
-  
-  .testimonials .carousel-container .carousel-inner .carousel-caption {
-    background-color: green;
-    border-radius: 20px;
-    color: #ff70b5;
-    font-weight: bold;
-    margin: -200px;
-  }
-  
-
-/* contact me */
-
- 
-  label{
-    width: 92%;
-  }
-  input{
-    width: 100%;
-  }
-  
-  textarea{
-    width: 100%;
-    height: 200px;
-  }
-  
-  #clear{
-    object-fit: contain;
-    background-color: #c00066;
-    color: white;
-  }
-  
-  #submit{
-    object-fit: contain;
-    background-color: #c00066;
-    color: white;
-  }
-  
-  #buttonDiv{
-    display: flex;
-    justify-content: center;
-    margin: 5px;
-  }
-  
    /* Media Queries */
   
 

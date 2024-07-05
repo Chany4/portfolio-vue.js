@@ -22,6 +22,10 @@ export default {
 }
 </script>
 <style scoped>
+
+.space-projects{
+    background-color:var(--linear-peach-pink)
+}
     h1{
       font-size: 9rem;
       font-family: "Chathura", sans-serif;

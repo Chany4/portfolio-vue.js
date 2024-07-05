@@ -39,6 +39,10 @@ mounted() {
 }
 </script>
 <style scoped>
+.card{
+box-shadow:  17px 17px 26px #d6bcbc,
+             -17px -17px 26px #ffffff;
+}
 #projectButton{
   background-color: rgb(255, 176, 189);
   color: rgb(255, 45, 84);

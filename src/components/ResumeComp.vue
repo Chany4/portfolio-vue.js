@@ -88,7 +88,7 @@
 
           <div class= "col-lg-6 d-flex flex-column align-items-start" >
               <h1 class="p-4 mb-5 display-5 fw-bold mx-auto">Resume</h1>
-            <div class="row p-4 education mb-5 w-100">
+            <div class="row p-4 education mb-5 w-100" v-for= "education in educationData()" :key="education">
               <div class="col-6">
                 <div class="d-flex justify-content-start">
                   <h5 class="display-5 fw-bold">Languages Spoken</h5> <i class="las la-language"></i>
@@ -96,15 +96,18 @@
                 <div class="row">
                   <div class="col-12 d-flex justify-content-start">
                     <ul>
-                      <li id="p">English</li>
-                      <li id="p">Afrikaans</li>
-                      <li id="p">Korean</li>
+                        <li id="p">{{ education.language1 }}</li>
+                      <li id="p">{{ education.language2 }}</li>
+                      <li id="p">{{ education.language3 }}</li>
                     </ul>
                     </div>
                 </div>
-                <div id="profButton-div">
-                <button id="profButton">View Level Of proficiency</button>
-              </div>
+                <a href="#">
+            <button class="Btn">
+              <div class="sign"><svg viewBox="0 0 512 512"><path d="M377.9 105.9L500.7 228.7c7.2 7.2 11.3 17.1 11.3 27.3s-4.1 20.1-11.3 27.3L377.9 406.1c-6.4 6.4-15 9.9-24 9.9c-18.7 0-33.9-15.2-33.9-33.9l0-62.1-128 0c-17.7 0-32-14.3-32-32l0-64c0-17.7 14.3-32 32-32l128 0 0-62.1c0-18.7 15.2-33.9 33.9-33.9c9 0 17.6 3.6 24 9.9zM160 96L96 96c-17.7 0-32 14.3-32 32l0 256c0 17.7 14.3 32 32 32l64 0c17.7 0 32 14.3 32 32s-14.3 32-32 32l-64 0c-53 0-96-43-96-96L0 128C0 75 43 32 96 32l64 0c17.7 0 32 14.3 32 32s-14.3 32-32 32z"></path></svg></div>
+              <div class="text">Level</div>
+            </button>
+            </a>
               </div>
               <div class="col-6">
                 <div class="d-flex justify-content-start">
@@ -113,11 +116,9 @@
               <div class="row">
                 <div class="col-12 d-flex justify-content-start">
                   <ul>
-                    <li>Certificate In First Aid Level 1</li>
-                    <li>D</li>
-                    <li>C</li>
-                    <li>J</li>
-                    <li>D</li>
+                    <li>{{ education.cerificate1 }}</li>
+                    <li>{{ education.cerificate2 }}</li>
+                    <li>{{ education.cerificate3 }}</li>
                   </ul>
                 
                   </div>
@@ -127,15 +128,25 @@
               
             </div>
             
-            <div class="p-4 education mb-5 w-100">
-              <h5 class="display-5 fw-bold"></h5>
+            <div class="p-4 education mb-5 w-100" v-for= "education in educationData()" :key="education">
+              <h5 class="display-5 fw-bold">More Information</h5>
               <div class="d-flex justify-content-around">
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolor ad tempore nesciunt dolore iste vel quis, nostrum, est delectus itaque consequatur? Quam perferendis harum qui veniam at eveniet perspiciatis aliquam.</p>
+                <p>{{ education.other }}</p>
               </div>
             </div>
           </div>
-         
           
+        </div>
+
+        <div class="row">
+          <div class="col-12 d-flex justify-content-center align-content-center">
+            <a href="#skills">
+            <button class="Btn">
+              <div class="sign"><svg viewBox="0 0 512 512"><path d="M377.9 105.9L500.7 228.7c7.2 7.2 11.3 17.1 11.3 27.3s-4.1 20.1-11.3 27.3L377.9 406.1c-6.4 6.4-15 9.9-24 9.9c-18.7 0-33.9-15.2-33.9-33.9l0-62.1-128 0c-17.7 0-32-14.3-32-32l0-64c0-17.7 14.3-32 32-32l128 0 0-62.1c0-18.7 15.2-33.9 33.9-33.9c9 0 17.6 3.6 24 9.9zM160 96L96 96c-17.7 0-32 14.3-32 32l0 256c0 17.7 14.3 32 32 32l64 0c17.7 0 32 14.3 32 32s-14.3 32-32 32l-64 0c-53 0-96-43-96-96L0 128C0 75 43 32 96 32l64 0c17.7 0 32 14.3 32 32s-14.3 32-32 32z"></path></svg></div>
+              <div class="text">Skills</div>
+            </button>
+            </a>
+          </div>
         </div>
       </div>
 </template>
@@ -175,6 +186,91 @@ export default {
 }
 </script>
 <style scoped> 
+
+/* View skills btn */
+
+.Btn {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  width: 45px;
+  height: 45px;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+  transition-duration: .3s;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.199);
+  background-color: rgb(71, 212, 255);
+}
+
+/* plus sign */
+.sign {
+  width: 100%;
+  transition-duration: .3s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.sign svg {
+  width: 17px;
+}
+
+.sign svg path {
+  fill: white;
+}
+/* text */
+.text {
+  position: absolute;
+  right: 0%;
+  width: 0%;
+  opacity: 0;
+  color: white;
+  font-size: 1.2em;
+  font-weight: 600;
+  transition-duration: .3s;
+}
+/* hover effect on button width */
+.Btn:hover {
+  width: 125px;
+  border-radius: 40px;
+  transition-duration: .3s;
+}
+
+.Btn:hover .sign {
+  width: 30%;
+  transition-duration: .3s;
+  padding-left: 20px;
+}
+/* hover effect button's text */
+.Btn:hover .text {
+  opacity: 1;
+  width: 70%;
+  transition-duration: .3s;
+  padding-right: 10px;
+}
+/* button click effect*/
+.Btn:active {
+  transform: translate(2px ,2px);
+}
+
+
+/*  */
+#self3 {
+    width: 50%;
+    height: 40%;
+    object-fit: cover;
+    display: block;
+    max-width: 100%;
+    padding-top:15px ;
+    border-radius: 25px;
+    border: 2px solid black;
+    padding: 0;
+    object-position: center;
+}
+
 #div{
   border: 1px solid black;
 }
@@ -232,13 +328,6 @@ h6{
     background-color: black;
   }
 
-  #profButton{
-    background-color: pink;
-    border: 1px rgb(255, 161, 177);
-    border-radius: 25px;
-    padding: 1%;
-    box-shadow: 3px 5px 6px 3px rgb(253, 118, 167);
-  }
   #profButton-div{
     display: flex;
     justify-content: flex-start;
