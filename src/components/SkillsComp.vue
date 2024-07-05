@@ -32,7 +32,7 @@
       </div>
     </div>
 
-    <div class="col-12">
+    <div class="col-12 my-5">
       <div class="row gap-2">
         <div
           class="col-md-4 d-flex justify-content-center x"

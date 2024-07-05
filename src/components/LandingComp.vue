@@ -20,7 +20,7 @@
               
             />
           </div>
-          <div>
+          <div class="pt-5">
             <i class="lab la-html5"></i>
             <i class="lab la-css3-alt"></i>
             <i class="lab la-js-square"></i>

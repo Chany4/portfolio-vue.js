@@ -1,26 +1,26 @@
 <template lang="">
   <div class="Wrapper">
-    <section class="section Landing" id= "main">
+    <section class="section Landing i" id= "main">
       <LandingComp/>
     </section>
 
-    <section class="section about" id= "aboutSection">
+    <section class="section about i" id= "aboutSection">
       <AboutComp/>
     </section>
     
-    <section class="section space-resume" id= "Resume">
+    <section class="section space-resume i" id= "Resume">
       <ResumeComp/>
     </section>
 
-    <section class="section" id= "skills">
+    <section class="section i" id= "skills">
       <SkillsComp/>
     </section>
 
-    <section class="section space-projects" id= "projects">
+    <section class="section space-projects i" id= "projects">
       <ProjectsComp/>
     </section>
     
-    <section  class="section space" id= "testimonials">
+    <section  class="section space i" id= "testimonials">
       <TestimonialsComp/>
     </section>
     

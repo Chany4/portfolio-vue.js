@@ -73,11 +73,13 @@
     background-color: var(--nav-bar-black);
     
   }
-  
+  .i{
+    padding: 20px;
+  }
 .section{
     min-height: 100vh;
     max-height: 100%;
-    padding: 40px;
+
     background-color: var(--pale-green);
     display: flex;
     flex-flow: column nowrap;
