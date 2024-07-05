@@ -55,12 +55,12 @@
               <input type="submit" class="primary-button" />
             </div>
             </div>
-
             <div class="d-flex justify-content-center align-content-center mx-3">
               <div class="button-borders">
-              <button class="primary-button"  @click="clearForm">Clear</button>
+              <input type="reset" class="primary-button" />
             </div>
             </div>
+
            </div>
           </form>
 
@@ -70,29 +70,11 @@
   </div>
 </template>
 <script>
+
+// do a v-if and v-else
 export default {
-  data() {
-    return {
-      form: {
-        surname: '',
-        name: '',
-        email: '',
-        message: ''
-      }
-    };
-  },
-  methods: {
-    clearForm() {
-      this.form.surname = '';
-      this.form.name = '';
-      this.form.email = '';
-      this.form.message = '';
-    },
-    submitForm() {
-      // handle form submission
-    }
   }
-};
+
 </script>
 <style scoped>
 #experiment {
