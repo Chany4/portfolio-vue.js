@@ -33,6 +33,7 @@
 </template>
 <script>
 export default {
+  
     methods:{
         jobTitleData(){
             return this.$store.state.jobTitle

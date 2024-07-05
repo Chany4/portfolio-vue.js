@@ -73,6 +73,9 @@
     background-color: var(--nav-bar-black);
     
   }
+  nav:hover{
+    color: white;
+  }
   .i{
     padding: 20px;
   }

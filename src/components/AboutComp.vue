@@ -40,7 +40,7 @@
                       <p class="p">{{ about.aboutBrief2 }}</p>
                     </div>
                     <div class="modal-footer">
-                      <a href="file.jpg" download="">
+                      <a href="https://chany4.github.io/portfolio-vue.js/Resume.pdf" download="https://chany4.github.io/portfolio-vue.js/Resume.pdf" target="_blank">
                         <button type="button" class="btn">
                         Download CV
                       </button>

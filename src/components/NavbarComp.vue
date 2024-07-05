@@ -24,10 +24,10 @@
           id="navbarNavDropdown"
         >
           <ul class="navbar-nav">
-            <li class="nav-item">
+            <li class="nav-item" id="li">
               <a class="nav-link" aria-current="page" href="#main">Home</a>
             </li>
-            <li class="nav-item dropdown">
+            <li class="nav-item dropdown" >
               <a
                 class="nav-link dropdown-toggle"
                 href="#"
@@ -85,4 +85,7 @@ export default {
     color: ghostwhite;
     font-weight: bold;
   }  
+  ul{
+    color: white;
+  }
 </style>
