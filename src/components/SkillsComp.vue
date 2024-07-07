@@ -1,5 +1,6 @@
 <template lang="">
-  <div class="row a">
+  <div class="p">
+    <div class="row a">
     <h1 class="text-center">Skills</h1>
     <div class="slider col-12">
       <div class="logos">
@@ -35,7 +36,7 @@
     <div class="col-12 my-5">
       <div class="row gap-2">
         <div
-          class="col-md-4 d-flex justify-content-center x"
+          class="col-md-5 d-flex justify-content-end x"
           @mouseenter="applyAnimation($event, JSON.stringify(skillsData))"
           @mouseleave="removeAnimation($event, JSON.stringify(skillsData))"  v-for="skill in skillsData" :key="skill"
         >
@@ -51,6 +52,8 @@
       </div>
     </div>
   </div>
+  </div>
+  
 </template>
 <script>
 export default {
@@ -89,6 +92,9 @@ mounted() {
 };
 </script>
 <style scoped>
+.p{
+  border: 1px solid black;
+}
 
 h1{
       font-size: 9rem;

@@ -1,7 +1,7 @@
 <template>
-    <div>
+    <div class="pt-5">
         <!-- Landing Page -->
-      <div class="" data-aos="zoom-in-right" id="Landing" v-for="job in jobTitleData()" :key="job">
+      <div class="pt-5" data-aos="zoom-in-right" id="Landing" v-for="job in jobTitleData()" :key="job">
         <div class="row justify-content-center align-items-center">
           <div class="col-md-6 d-flex justify-content-start">
             <div class="home-text">
@@ -12,7 +12,7 @@
               </p>
             </div>
           </div>
-          <div class="col-md-6" id="self3-div">
+          <div class="col-md-6  pt-3" id="self3-div">
             <img
               src="https://chany4.github.io/images.Portfolio/images/20240422_114648.jpg"
               class="mx-auto"
@@ -51,15 +51,14 @@ mounted() {
 }
 </script>
 <style scoped>
+.home-text{
+  object-fit:contain;
+}
 
  #Landing {
     width: 100%;
     max-width: max-content;
     color: white;
-}
-#p-landing{
-  color: black;
-  font-size: 1.2rem;
 }
 h1{
   font-family: "Antic Didone", serif;

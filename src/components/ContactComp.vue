@@ -8,10 +8,10 @@
       />
     </div>
 
-    <div class="col-md-8 py-5 px-5">
+    <div class="col-md-8 py-4 px-5">
       <!--  -->
       <div class="row d-flex x">
-        <h5>Contact Us</h5>
+        <h5>Contact Me</h5>
       </div>
       <!--  -->
       <div class="row">
@@ -31,7 +31,7 @@
                 <p>Rockalnds, Mitchell's Plain</p>
               </li>
               <li>
-                <a href="https://www.linkedin.com/in/chandre-leigh-davids-872022318/"><i class="lab la-linkedin"></i></a>
+                <a href="https://www.linkedin.com/in/chandre-leigh-davids-872022318/" target="_blank"><i class="lab la-linkedin"></i></a>
                 <p>Chandre Leigh Davids</p>
               </li>
               <li>
