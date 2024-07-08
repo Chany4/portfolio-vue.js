@@ -38,7 +38,7 @@
 }
 
 ::-webkit-scrollbar{
-    display: display;
+    display: none;
 }
 ::before,
 ::after{

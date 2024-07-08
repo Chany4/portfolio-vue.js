@@ -88,4 +88,7 @@ export default {
   ul{
     color: white;
   }
+  nav:hover{
+    background-color: pink;
+  }
 </style>
