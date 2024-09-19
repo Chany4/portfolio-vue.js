@@ -20,10 +20,6 @@
       <ProjectsComp/>
     </section>
     
-    <section  class="section space i" id= "testimonials">
-      <TestimonialsComp/>
-    </section>
-    
     <section class="section" id="contact">
       <ContactComp/>
     </section>
@@ -40,7 +36,6 @@ import AboutComp from '@/components/AboutComp.vue'
 import ResumeComp from '@/components/ResumeComp.vue'
 import SkillsComp from '@/components/SkillsComp.vue'
 import ProjectsComp from '@/components/ProjectsComp.vue'
-import TestimonialsComp from '@/components/TestimonialsComp.vue'
 import ContactComp from '@/components/ContactComp.vue'
 import FooterComp from '@/components/FooterComp.vue'
 // import SpinnerComp from '@/components/SpinnerComp.vue'
@@ -53,7 +48,6 @@ export default {
     ResumeComp,
     SkillsComp,
     ProjectsComp,
-    TestimonialsComp,
     ContactComp,
     FooterComp
     // SpinnerComp

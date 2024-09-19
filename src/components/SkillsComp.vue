@@ -40,10 +40,10 @@
           @mouseenter="applyAnimation($event, JSON.stringify(skillsData))"
           @mouseleave="removeAnimation($event, JSON.stringify(skillsData))"  v-for="skill in skillsData" :key="skill"
         >
-          <div class="col-md-4">
+          <div class="col-md-4 z">
             <i :class="skill.name" id="x"></i>
-            <div class="">
-              <p>{{skill.level}}</p>
+            <div class="n">
+              <p class="mt-2">{{skill.level}}</p>
             </div>
           </div>
           <div class="myDIV"></div>
@@ -92,6 +92,16 @@ mounted() {
 };
 </script>
 <style scoped>
+.z{
+  border: 1px solid black;
+  background-color:white ;
+  padding: 6px;
+}
+.n{
+  background-color: black;
+  color:white;
+  font-size: 15px;
+}
 .p{
   border: 1px solid black;
 }
@@ -104,7 +114,10 @@ i {
   font-size: 4rem;
   color: white;
   background-color: black;
-  padding: 2px;
+  padding: 15px;
+  border-radius: 120px;
+  display: flex;
+  justify-content: center;
 }
 .myDIV {
   width: 0.2px;
