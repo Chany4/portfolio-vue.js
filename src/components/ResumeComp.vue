@@ -87,8 +87,8 @@
           </div>
 
           <div class= "col-lg-6 d-flex flex-column align-items-start" >
-              <h1 class="p-4 mb-5 display-5 fw-bold mx-auto">Resume</h1>
-            <div class="row p-4 education mb-5 w-100" v-for= "education in educationData()" :key="education">
+              <h1 class="p-4 mb-5 display-5 fw-bold mx-auto d-none d-md-block">Education and Experience</h1>
+            <div class="row p-4 education mb-5 w-100 d-flex justify-content-center" v-for= "education in educationData()" :key="education">
               <div class="col-6">
                 <div class="d-flex justify-content-start">
                   <h5 class="display-5 fw-bold">Languages Spoken</h5> <i class="las la-language"></i>
@@ -163,7 +163,7 @@
     </div>
   </div>
 </div>
-            <!-- End of modal-->
+            End of modal
             </div>
             
           </div>

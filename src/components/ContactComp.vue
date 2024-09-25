@@ -35,7 +35,7 @@
                 <p>Chandre Leigh Davids</p>
               </li>
               <li>
-                <i class="lab la-github"></i>
+                <a href="https://github.com/Chany4" target="_blank" title="click on me"><i class="lab la-github"></i></a>
                 <p>Chany4</p>
               </li>
             </ul>
