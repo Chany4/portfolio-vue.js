@@ -2,36 +2,6 @@
   <div class="p">
     <div class="row a">
     <h1 class="text-center">Skills</h1>
-    <div class="slider col-12">
-      <div class="logos">
-        <i class="lab la-github"></i>
-        <i class="las la-code"></i>
-        <i class="lab la-css3"></i>
-        <i class="lab la-html5"></i>
-        <i class="lab la-js-square"></i>
-        <i class="lab la-node-js"></i>
-        <i class="lab la-vuejs"></i>
-        <i class="lab la-bootstrap"></i>
-
-        <i class="lab la-github"></i>
-        <i class="las la-code"></i>
-        <i class="lab la-css3"></i>
-        <i class="lab la-html5"></i>
-        <i class="lab la-js-square"></i>
-        <i class="lab la-node-js"></i>
-        <i class="lab la-vuejs"></i>
-        <i class="lab la-bootstrap"></i>
-
-        <i class="lab la-github"></i>
-        <i class="las la-code"></i>
-        <i class="lab la-css3"></i>
-        <i class="lab la-html5"></i>
-        <i class="lab la-js-square"></i>
-        <i class="lab la-node-js"></i>
-        <i class="lab la-vuejs"></i>
-        <i class="lab la-bootstrap"></i>
-      </div>
-    </div>
 
     <div class="col-12 my-5">
       <div class="row gap-2">
@@ -102,9 +72,7 @@ mounted() {
   color:white;
   font-size: 15px;
 }
-.p{
-  border: 1px solid black;
-}
+
 
 h1{
       font-size: 9rem;
@@ -137,30 +105,6 @@ i {
 a {
   top: 0;
 }
-body {
-  width: 100%;
-  height: 100vh;
-  margin: 0;
-  padding: 0;
-  background: black;
-  display: grid;
-  place-items: center;
-  overflow-x: hidden;
-}
-.slider {
-  width: 100%;
-  height: fit-content;
-  overflow: hidden;
-  background-color: black;
-  border-radius: 10px;
-}
-
-.logos {
-  display: flex;
-  align-items: center;
-  animation: slider 10s linear infinite;
-}
-
 .lab {
   font-size: 4rem;
   color: white;
@@ -174,12 +118,4 @@ body {
   margin: 0 25px;
 }
 
-@keyframes slider {
-  from {
-    transform: translateX(0px);
-  }
-  to {
-    transform: translateX(-900px);
-  }
-}
 </style>

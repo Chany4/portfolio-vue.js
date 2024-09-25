@@ -38,13 +38,14 @@
                   *
                 </div>
                 <div class="col-md-3" id="div">
-                  <p>{{education.yearMHS}}</p>
+                  <p>{{education.yearLC}}</p>
                 </div>
                 <div class="col-md-5" id="div">
-                  <p>{{education.placeOfInstitutionMHS}}</p>
+                  <p>{{education.placeOfInstitution}}</p>
                 </div>
                 <div class="col-md-3" id="div">
-                  <p>{{education.levelPassed}}</p>
+                  <!-- <p>{{education.levelPassed}}</p> -->
+                   <p>I passed with a certificate of excellence</p>
                 </div>
 
              
@@ -87,7 +88,7 @@
           </div>
 
           <div class= "col-lg-6 d-flex flex-column align-items-start" >
-              <h1 class="p-4 mb-5 display-5 fw-bold mx-auto d-none d-md-block">Education and Experience</h1>
+              <h1 class="p-4 mb-5 display-5 fw-bold mx-auto d-none d-lg-block">Education and Experience</h1>
             <div class="row p-4 education mb-5 w-100 d-flex justify-content-center" v-for= "education in educationData()" :key="education">
               <div class="col-6">
                 <div class="d-flex justify-content-start">
@@ -115,9 +116,9 @@
               <div class="row">
                 <div class="col-12 d-flex justify-content-start">
                   <ul>
-                    <li>{{ education.cerificate1 }}</li>
-                    <li>{{ education.cerificate2 }}</li>
-                    <li>{{ education.cerificate3 }}</li>
+                    <li>{{ education.certificate1 }}</li>
+                    <li>{{ education.certificate2 }}</li>
+                    <li>{{ education.certificate3 }}</li>
                   </ul>
                 
                   </div>
