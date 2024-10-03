@@ -7,18 +7,19 @@
     <section class="section about i" id= "aboutSection">
       <AboutComp/>
     </section>
+
+    <section class="section i" id= "skills">
+      <SkillsComp/>
+    </section>
     
     <section class="section space-resume i" id= "Resume">
       <ResumeComp/>
     </section>
 
-    <section class="section i" id= "skills">
-      <SkillsComp/>
+    <section class="section i" id= "projects">
+      <CodeComp/>
     </section>
 
-    <section class="section space-projects i" id= "projects">
-      <ProjectsComp/>
-    </section>
     
     <section class="section" id="contact">
       <ContactComp/>
@@ -35,10 +36,9 @@ import LandingComp from '@/components/LandingComp.vue'
 import AboutComp from '@/components/AboutComp.vue'
 import ResumeComp from '@/components/ResumeComp.vue'
 import SkillsComp from '@/components/SkillsComp.vue'
-import ProjectsComp from '@/components/ProjectsComp.vue'
 import ContactComp from '@/components/ContactComp.vue'
 import FooterComp from '@/components/FooterComp.vue'
-// import SpinnerComp from '@/components/SpinnerComp.vue'
+import CodeComp from '@/components/CodeComp.vue'
 
 
 export default {
@@ -47,10 +47,9 @@ export default {
     AboutComp,
     ResumeComp,
     SkillsComp,
-    ProjectsComp,
     ContactComp,
-    FooterComp
-    // SpinnerComp
+    FooterComp,
+    CodeComp
   }
   }
 

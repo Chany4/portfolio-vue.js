@@ -11,8 +11,8 @@
       <div class="row justify-content-center align-items-center">
         <div class="col-md-6 d-flex justify-content-start">
           <div class="home-text">
-            <h1 class="text-capitalize">{{ job.title }}</h1>
-            <h3>{{ job.nameInJob }}</h3>
+            <h1 class="text-capitalize responsive-title">{{ job.title }}</h1>
+            <h3 class="responsive-subtitle">{{ job.nameInJob }}</h3>
             <div class="pt-5">
               <i class="lab la-html5"></i>
               <i class="lab la-css3-alt"></i>
@@ -111,4 +111,28 @@ p {
     transform: rotateY(0px);
   }
 }
+
+.home-text {
+    text-align: left;
+}
+
+.responsive-title {
+    font-size: 10vw; /* Adjust based on design */
+}
+
+.responsive-subtitle {
+    font-size: 8vw; /* Adjust based on design */
+}
+
+/* Media queries for larger screens */
+@media (min-width: 768px) {
+    .responsive-title {
+        font-size: 4rem; /* Fixed size for larger screens */
+    }
+
+    .responsive-subtitle {
+        font-size: 2rem; /* Fixed size for larger screens */
+    }
+}
+
 </style>
