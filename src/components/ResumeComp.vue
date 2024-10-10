@@ -109,7 +109,7 @@
             </button>
 
               </div>
-              <div class="col-6">
+              <div class="col-md-6">
                 <div class="d-flex justify-content-start">
                 <h5 class="display-5 fw-bold">Other</h5> <i class="las la-hiking"></i>
               </div>
@@ -164,7 +164,7 @@
     </div>
   </div>
 </div>
-            End of modal
+            <!-- End of modal -->
             </div>
             
           </div>

@@ -1,4 +1,4 @@
-<template lang="">
+<template >
   <div class="p">
     <div class="row a">
     <h1 class="text-center">Skills</h1>
@@ -22,6 +22,17 @@
       </div>
     </div>
   </div>
+  </div>
+
+  <div class="row p-4">
+    <div class="card col-lg-4 m-1" v-for="skill in skillsData" :key="skill">
+      <div>
+        <img :src="skill.name">
+      </div>
+      <div>
+        {{ skill.level }}
+      </div>
+    </div>
   </div>
   
 </template>

@@ -19,16 +19,22 @@
           <div class="col">
             <ul>
               <li>
-                <i class="las la-envelope"></i>
+                <a href="mailto:chandreleighdavids04052005@gmail.com" target="_blank">
+                  <i class="las la-envelope"></i>
+                </a>
                 <p>chandreleighdavids04052005@gmail.com</p>
               </li>
               <li>
-                <i class="las la-phone-volume"></i>
+                <a href="tel:+27733253129" target="_blank">
+                  <i class="las la-phone-volume"></i>
+                </a>
                 <p>+27 73 325 3129</p>
               </li>
               <li>
-                <i class="las la-map-marker-alt"></i>
-                <p>Rockalnds, Mitchell's Plain</p>
+                <a href="https://maps.app.goo.gl/dcm884dmrj7SwmCK7" target="_blank">
+                  <i class="las la-map-marker-alt"></i>
+                </a>
+                <p>Rocklands, Mitchell's Plain</p>
               </li>
               <li>
                 <a href="https://www.linkedin.com/in/chandre-leigh-davids-872022318/" target="_blank"><i class="lab la-linkedin"></i></a>
@@ -112,6 +118,10 @@ a{
 }
 ul li {
   list-style: none;
+}
+i:hover {
+  scale: 1.5;
+  color: rgb(85, 85, 85);
 }
 
 ul > li > p {
