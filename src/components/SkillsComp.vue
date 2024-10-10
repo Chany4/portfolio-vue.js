@@ -24,8 +24,8 @@
   </div>
   </div>
 
-  <div class="row p-3 d-flex justify-content-center">
-    <div class="card col-lg-4 m-1" v-for="skill in skillsData" :key="skill">
+  <div class="row p-3 d-flex justify-content-center" v-for="skill in skillsData" :key="skill">
+    <div class="card col-lg-4 m-1" >
       <div>
         <img :src="skill.name">
       </div>

@@ -21,11 +21,11 @@
 
               <!-- Table -->
               <div class="row" id="div">
-                <div class="col-1 mx-auto align-self-center d-none d-sm-block" id="div">
+                <div class="col-1 mx-auto align-self-center d-none d-md-block" id="div">
                   <span>🎓</span>
                 </div>
-                <div class="d-block d-sm-none">
-                  <img src="" alt="">
+                <div class="d-block d-md-none mm">
+                  <img src="https://chany4.github.io/images-portfolio-re/images/mondale_badge.png" alt="mondale high school badge">
                 </div>
                 <div class="col-md-3" id="div">
                   <p>{{education.yearMHS}}</p>
@@ -37,8 +37,11 @@
                   <p>{{education.levelPassed}}</p>
                 </div>
 
-                <div class="col-1 mx-auto align-self-center d-none d-sm-block" id="div">
+                <div class="col-1 mx-auto align-self-center d-none d-md-block" id="div">
                   <span>🎓</span>
+                </div>
+                <div class="d-block d-md-none mm">
+                  <img src="https://chany4.github.io/images-portfolio-re/images/Life_choices.png" alt="Life Choices Academy">
                 </div>
                 <div class="col-md-3" id="div">
                   <p>{{education.yearLC}}</p>
@@ -64,8 +67,11 @@
                 <p>{{work.descriptionPIP}}</p>
               </div>
               <div class="row" id="div">
-                <div class="col-md-1 align-self-center d-none d-sm-block" id="div">
+                <div class="col-md-1 align-self-center d-none d-md-block" id="div">
                   <span>📖</span>
+                </div>
+                <div class="d-block d-md-none mm">
+                  <img src="https://chany4.github.io/images-portfolio-re/images/upper-edge-200x140px.jpg" alt="Upper Edge">
                 </div>
                 <div class="col-md-3" id="div">
                   <p>{{work.year}}</p>
@@ -76,8 +82,11 @@
               </div>
 
               <div class="row" id="div">
-                <div class="col-md-1 align-self-center d-none d-sm-block" id="div">
+                <div class="col-md-1 align-self-center d-none d-md-block" id="div">
                   <span class="align-self-center">📖</span>
+                </div>
+                <div class="d-block d-md-none mm">
+                  <img src="https://chany4.github.io/images-portfolio-re/images/Screenshot_20241010_095634.jpg" alt="My business">
                 </div>
                 <div class="col-md-3" id="div">
                   <p>{{work.yearPIP}}</p>
@@ -211,7 +220,13 @@ export default {
 }
 </script>
 <style scoped> 
-
+.mm{
+  object-fit: cover;
+}
+img{
+  width: 100%;
+  height: 100%;
+}
 span{
   margin-right: 16px;
 
