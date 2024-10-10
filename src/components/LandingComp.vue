@@ -61,7 +61,7 @@ export default {
   color: white;
 }
 h1 {
-  font-family: "Antic Didone", serif;
+  font-family: "Chathura", sans-serif;
   font-size: 4rem;
   color: #000;
 }
@@ -127,7 +127,7 @@ p {
 /* Media queries for larger screens */
 @media (min-width: 768px) {
     .responsive-title {
-        font-size: 4rem; /* Fixed size for larger screens */
+        font-size: 8rem; /* Fixed size for larger screens */
     }
 
     .responsive-subtitle {

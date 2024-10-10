@@ -21,8 +21,11 @@
 
               <!-- Table -->
               <div class="row" id="div">
-                <div class="col-1 mx-auto" id="div">
-                  *
+                <div class="col-1 mx-auto align-self-center d-none d-sm-block" id="div">
+                  <span>🎓</span>
+                </div>
+                <div class="d-block d-sm-none">
+                  <img src="" alt="">
                 </div>
                 <div class="col-md-3" id="div">
                   <p>{{education.yearMHS}}</p>
@@ -34,8 +37,8 @@
                   <p>{{education.levelPassed}}</p>
                 </div>
 
-                <div class="col-1 mx-auto" id="div">
-                  *
+                <div class="col-1 mx-auto align-self-center d-none d-sm-block" id="div">
+                  <span>🎓</span>
                 </div>
                 <div class="col-md-3" id="div">
                   <p>{{education.yearLC}}</p>
@@ -61,25 +64,25 @@
                 <p>{{work.descriptionPIP}}</p>
               </div>
               <div class="row" id="div">
-                <div class="col-1" id="div">
-                  *
+                <div class="col-md-1 align-self-center d-none d-sm-block" id="div">
+                  <span>📖</span>
                 </div>
-                <div class="col-3" id="div">
+                <div class="col-md-3" id="div">
                   <p>{{work.year}}</p>
                 </div>
-                <div class="col-8" id="div">
+                <div class="col-md-8" id="div">
                   <p>{{work.placeOfWork}}</p>
                 </div>
               </div>
 
               <div class="row" id="div">
-                <div class="col-1" id="div">
-                  *
+                <div class="col-md-1 align-self-center d-none d-sm-block" id="div">
+                  <span class="align-self-center">📖</span>
                 </div>
-                <div class="col-3" id="div">
+                <div class="col-md-3" id="div">
                   <p>{{work.yearPIP}}</p>
                 </div>
-                <div class="col-8" id="div">
+                <div class="col-md-8" id="div">
                   <p>{{work.nameOfBusiness}}</p>
                 </div>
               </div>
@@ -90,11 +93,11 @@
           <div class= "col-lg-6 d-flex flex-column align-items-start" >
               <h1 class="p-4 mb-5 display-5 fw-bold mx-auto d-none d-lg-block">Education and Experience</h1>
             <div class="row p-4 education mb-5 w-100 d-flex justify-content-center" v-for= "education in educationData()" :key="education">
-              <div class="col-6">
+              <div class="col-sm-6">
                 <div class="d-flex justify-content-start">
                   <h5 class="display-5 fw-bold">Languages Spoken</h5> <i class="las la-language"></i>
                 </div>
-                <div class="row">
+                <div class="row d-flex justify-content-start">
                   <div class="col-12 d-flex justify-content-start">
                     <ul>
                         <li id="p">{{ education.language1 }}</li>
@@ -109,7 +112,7 @@
             </button>
 
               </div>
-              <div class="col-md-6">
+              <div class="col-sm-6">
                 <div class="d-flex justify-content-start">
                 <h5 class="display-5 fw-bold">Other</h5> <i class="las la-hiking"></i>
               </div>
@@ -209,6 +212,10 @@ export default {
 </script>
 <style scoped> 
 
+span{
+  margin-right: 16px;
+
+}
 /* View skills btn */
 
 .Btn {
@@ -305,7 +312,7 @@ li{
 p{
   color: black;
   font-family: "Chathura", sans-serif;
-  font-size: 2.2rem;
+  font-size: 2.5rem;
 }
 
 #p{
