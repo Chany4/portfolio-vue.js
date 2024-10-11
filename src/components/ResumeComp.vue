@@ -67,7 +67,7 @@
                 <p>{{work.descriptionPIP}}</p>
               </div>
               <div class="row" id="div">
-                <div class="col-md-1 align-self-center d-none d-md-block" id="div">
+                <div class="col-md-1 align-self-center d-none d-md-block" >
                   <span>📖</span>
                 </div>
                 <div class="d-block d-md-none mm">
@@ -82,7 +82,7 @@
               </div>
 
               <div class="row" id="div">
-                <div class="col-md-1 align-self-center d-none d-md-block" id="div">
+                <div class="col-md-1 align-self-center d-none d-md-block" >
                   <span class="align-self-center">📖</span>
                 </div>
                 <div class="d-block d-md-none mm">
