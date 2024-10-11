@@ -13,44 +13,7 @@
               <br />
             </div>
             <div class="box">
-              <!-- this is a modal -->
-              <div
-                class="modal"
-                id="staticBackdrop"
-                data-bs-backdrop="static"
-                data-bs-keyboard="false"
-                tabindex="-1"
-                aria-labelledby="staticBackdropLabel"
-                aria-hidden="true"
-              >
-                <div class="modal-dialog">
-                  <div class="modal-content">
-                    <div class="modal-header">
-                      <h1 class="modal-title fs-5 text-danger" id="staticBackdropLabel">
-                        Who is Chandré Leigh Davids ?
-                      </h1>
-                      <button
-                        type="button"
-                        class="btn-close"
-                        data-bs-dismiss="modal"
-                        aria-label="Close"
-                      ></button>
-                    </div>
-                    <div class="modal-body" style="height: 400px;">
-                      <p class="p">{{ about.aboutBrief2 }}</p>
-                    </div>
-                    <div class="modal-footer">
-                      <a href="https://chany4.github.io/portfolio-vue.js/Resume.pdf" download="https://chany4.github.io/portfolio-vue.js/Resume.pdf" target="_blank">
-                        <button type="button" class="btn">
-                        Download CV
-                      </button>
-                    </a> 
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              <!-- End of modal -->
+             
             </div>
           </div>
           <div class="col-lg-5" id="self2-div">

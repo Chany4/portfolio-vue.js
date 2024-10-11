@@ -1,15 +1,15 @@
 <template>
-  <div class="pt-5">
+  <div class="pt-5 row d-flex justify-conent-center">
     <!-- Landing Page -->
     <div
-      class="pt-5"
+      class="pt-5 "
       data-aos="zoom-in-right"
       id="Landing"
       v-for="job in jobTitleData()"
       :key="job"
     >
-      <div class="row justify-content-center align-items-center">
-        <div class="col-md-6 d-flex justify-content-start">
+      <div class="row justify-content-center align-items-center justify-conent-center">
+        <div class="col-md-6 p-5">
           <div class="home-text">
             <h1 class="text-capitalize responsive-title">{{ job.title }}</h1>
             <h3 class="responsive-subtitle">{{ job.nameInJob }}</h3>

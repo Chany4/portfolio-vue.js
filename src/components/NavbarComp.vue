@@ -40,18 +40,17 @@
               <ul class="dropdown-menu">
                 <li>
                   <a class="dropdown-item" href="#aboutSection"
-                    ><button type="button" class="btn">Detailed</button></a
+                    ><button type="button" class="btn">About Me</button></a
                   >
                 </li>
                 <li>
-                  <a class="dropdown-item" href="#aboutSection"
+                  <a class="dropdown-item" href="#skills"
                     ><button
                       type="button"
                       class="btn"
-                      data-bs-toggle="modal"
                       data-bs-target="#staticBackdrop"
                     >
-                      Brief
+                      Skills
                     </button></a
                   >
                 </li>
