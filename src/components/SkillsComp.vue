@@ -3,16 +3,13 @@
     <div class="row a">
     <h1 class="text-center">Skills</h1>
 
-    <div class="col-12 my-5">
-      <div class="row gap-2">
+    <div class="my-5">
+      <div class="row">
         <div
-          class="col-md-3 d-flex justify-content-center" v-for="skill in skillsData" :key="skill"
+          class="col-lg-3 col-md-3 d-flex justify-content-center my-2" v-for="skill in skillsData" :key="skill"
         >
-          <div class="col-md-4 z">
+          <div class="col-md-3 z">
             <i :class="skill.name" id="x"></i>
-            <div class="n">
-              <p class="mt-2">{{skill.level}}</p>
-            </div>
           </div>
         </div>
         
@@ -36,17 +33,7 @@ mounted() {
 };
 </script>
 <style scoped>
-.z{
-  border: 1px solid black;
-  background-color:white ;
-  padding: 6px;
-  display: flex;
-}
-.n{
-  background-color: black;
-  color:white;
-  font-size: 15px;
-}
+
 
 h1{
       font-size: 9rem;
@@ -66,9 +53,6 @@ i {
   border: 2px solid black;
 }
 
-.row {
-  padding: 10px;
-}
 
 a {
   top: 0;
@@ -76,14 +60,10 @@ a {
 .lab {
   font-size: 4rem;
   color: white;
-  width: 110px;
-  margin: 0 25px;
 }
 .las {
   font-size: 4rem;
   color: white;
-  width: 110px;
-  margin: 0 25px;
 }
 
 </style>
