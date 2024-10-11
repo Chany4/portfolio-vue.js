@@ -55,11 +55,23 @@
           <img src="https://chany4.github.io/images-portfolio-re/images/discipline.png" alt="discipline">
           <p>discipline</p>
         </div>
-        
-
-        
       </div>
     </div>
+
+    <div class="row d-flex justify-content-center">
+        <div class="d-flex justify-content-center">
+          <h4>Badges</h4>
+        </div>
+        <div class="col-md-3">
+          <img src="https://chany4.github.io/images-portfolio-re/images/operating-systems-basics%20(1).png" alt="OS systems basice">
+        </div>
+        <div class="col-md-3">
+          <img src="https://chany4.github.io/images-portfolio-re/images/linux-unhatched.png" alt="linux unhatched">
+        </div>
+      </div>
+      <div class="row">
+        <router-link ><button>View More Achievements</button></router-link>
+      </div>
   </div>
   </div>
 
