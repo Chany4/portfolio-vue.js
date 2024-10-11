@@ -56,7 +56,11 @@ export default {
 </script>
 <style scoped>
   #main{
-    background-color: green;
+    background-image: url('https://chany4.github.io/images-portfolio-re/images/for%20chandre%203.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; /* This replaces object-fit */
+    margin: 0;
   }
   .padding{
     padding: 20px;

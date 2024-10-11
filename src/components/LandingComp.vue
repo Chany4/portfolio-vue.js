@@ -67,7 +67,7 @@ export default {
 h1 {
   font-family: "Chathura", sans-serif;
   font-size: 4rem;
-  color: #000;
+  color: white  ;
 }
 h3 {
   font-family: "Antic Didone", serif;
@@ -88,11 +88,11 @@ p {
 }
 
 .lab {
-  color: black;
+  color: white;
   font-size: 4rem;
 }
 .lab {
-  color: black;
+  color: white;
   font-size: 3rem;
   animation: float 3s ease-in-out infinite;
 }
@@ -155,6 +155,7 @@ p {
   place-content: center;
   place-items: center;
   border-radius: 50%; /* Make it a circle */
+  margin-left: 5px;
 }
  
 
@@ -216,4 +217,10 @@ p {
     background-image: linear-gradient(180deg, rgb(81, 255, 0), purple);
     animation: rotBGimg 3.5s linear infinite;
 } */
+
+@media (min-width: 992px) { /* Assuming 'lg' starts at 992px */
+    .card {
+        margin-left: 120px;
+    }
+}
 </style>
