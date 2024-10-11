@@ -3,28 +3,35 @@
          <!-- About Section -->
       <div class="container" id="about" v-for="about in aboutData()" :key="about">
         <div class="row">
-          <div class="col-lg-7">
-            <div class="box">
-              <h4 id="aboutMeLabel">About Me</h4>
+          <h4 id="aboutMeLabel">About Me</h4>
+            <div class="col-md-7">
+              
               <br />
               <p id="brief-Para">
                 {{about.aboutBrief}}
               </p>
               <br />
             </div>
-            <div class="box">
-             
+            <div class="col-md-5">
+              <h4>Full Name :</h4>
+              <p>Chandre Leigh Davids</p>
+              <br><br>
+              
+              <h4>Date of Birth :</h4>
+              <p>04 October 2005</p>
+              <br><br>
+              
+              <h4>Email :</h4>
+              <p>chandreleighdavids04052005@gmail.com</p>
+              <br><br>
+              
+              <h4>Adress :</h4>
+              <p>Rocklands, Mitchell's Plain</p>
+              <br><br>
+              
             </div>
           </div>
-          <div class="col-lg-5" id="self2-div">
-            <img
-              src= "https://chany4.github.io/images.Portfolio/images/IMG_20240702_144032.jpg"
-              alt="self2"
-              id="self2"
-            />
-          </div>
         </div>
-      </div>
 
         
     </div>
@@ -72,10 +79,11 @@ mounted() {
 #about{
     color: white;
     padding: 30px;
+    background-color: rgba(255, 255, 255, 0.458);
   }
 
 #aboutMeLabel{
-  color: black;
+  color: white;
   font-family: "Chathura", sans-serif; 
   font-size: 9rem;
   top: 0;
@@ -92,10 +100,25 @@ mounted() {
     padding: 20px;
     padding-bottom: 50px;
     color: black;
+    text-align: center;
+    text-shadow: 2px 2px 4px rgba(0, 0.7, 0, 0.5);
     font-family: "Chathura", sans-serif;
     font-size: 1.9rem;
 }
-
+h4{
+    color: black;
+    text-align: center;
+    text-shadow: 2px 2px 4px rgba(0, 0.7, 0, 0.5);
+    font-family: "Chathura", sans-serif;
+    font-size: 1.9rem;
+}
+p{
+    color: black;
+    text-align: center;
+    text-shadow: 2px 2px 4px rgba(0, 0.7, 0, 0.5);
+    font-family: "Chathura", sans-serif;
+    font-size: 1.9rem;
+}
 .btn {
   display: flex;
   align-items: center;
@@ -139,5 +162,9 @@ img{
   border-radius: 25px;
   border: 1px solid black;
 }
-    
+.col-md-5{
+  background-color: rgba(7, 83, 7, 0.625);
+  border-radius: 20px;
+  border: 2px solid white;
+}
 </style>

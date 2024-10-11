@@ -32,7 +32,7 @@
         <i class="bi bi-filetype-sql"></i>
       </div>
     </div>
-    <div>
+    <div id="foot">
         <a href="https://github.com/Chany4" target="_blank" title="click on me">
             <img src="https://chany4.github.io/images.Portfolio/images/GitHub-Mark-ea2971cee799.png" alt="gitHub" id="gitPic">
         </a>
@@ -65,12 +65,24 @@ export default {
     margin-top: 10px;
     color: white;
   }
+  #foot{
+    padding: 19px;
+    border-top: 1px solid white ;
+  }
+  .slider {
+  width: 100%;
+  height: fit-content;
+  overflow: hidden;
+  background-color: black;
+  padding: 10px;
+}
 
   .slider {
   width: 100%;
   height: fit-content;
   overflow: hidden;
   background-color: black;
+  padding: 10px;
 }
 
 .logos {

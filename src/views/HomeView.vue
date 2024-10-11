@@ -4,24 +4,24 @@
       <LandingComp/>
     </section>
 
-    <section class="section about i" id= "aboutSection">
+    <section class="section about i padding" id= "aboutSection">
       <AboutComp/>
     </section>
 
-    <section class="section i" id= "skills">
+    <section class="section i padding" id= "skills">
       <SkillsComp/>
     </section>
     
-    <section class="section space-resume i" id= "Resume">
+    <section class="section padding space-resume i" id= "Resume">
       <ResumeComp/>
     </section>
 
-    <section class="section i" id= "projects">
+    <section class="section i padding" id= "projects">
       <CodeComp/>
     </section>
 
     
-    <section class="section" id="contact">
+    <section class="section padding" id="contact">
       <ContactComp/>
     </section>
     
@@ -54,6 +54,32 @@ export default {
   }
 
 </script>
-<style>
-  
+<style scoped>
+  #main{
+    background-color: green;
+  }
+  .padding{
+    padding: 20px;
+  }
+  #Resume{
+    background: rgba(255, 255, 255, 0.5); /* Optional: semi-transparent background */
+    backdrop-filter: blur(10px); /* Adjust the blur amount as needed */
+    
+  }
+  #projects{
+    background: rgba(255, 255, 255, 0.5); /* Optional: semi-transparent background */
+    backdrop-filter: blur(10px); /* Adjust the blur amount as needed */
+    
+  }
+  #skills{
+    background: rgba(255, 255, 255, 0.5); /* Optional: semi-transparent background */
+    backdrop-filter: blur(10px); /* Adjust the blur amount as needed */
+  }
+
+  @media (min-width: 768px) { /* Adjust the min-width as needed for your design */
+    .padding {
+        padding: 20px 100px 20px 160px;
+    }
+}
+
 </style>

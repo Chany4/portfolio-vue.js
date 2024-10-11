@@ -1,168 +1,152 @@
 /* fonts */
 
 /* Monsterrat */
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Ubuntu+Sans+Mono:ital,wght@0,400..700;1,400..700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Ubuntu+Sans+Mono:ital,wght@0,400..700;1,400..700&display=swap");
 /* font-family: "Montserrat", sans-serif; */
 
 /* Antic Didone */
-@import url('https://fonts.googleapis.com/css2?family=Antic+Didone&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Ubuntu+Sans+Mono:ital,wght@0,400..700;1,400..700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Antic+Didone&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Ubuntu+Sans+Mono:ital,wght@0,400..700;1,400..700&display=swap");
 /* font-family: "Antic Didone", serif; */
 
 /* Oranienbaum */
-@import url('https://fonts.googleapis.com/css2?family=Antic+Didone&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oranienbaum&family=Ubuntu+Sans+Mono:ital,wght@0,400..700;1,400..700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Antic+Didone&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oranienbaum&family=Ubuntu+Sans+Mono:ital,wght@0,400..700;1,400..700&display=swap");
 /*  font-family: "Oranienbaum", serif;*/
 
 /* Chatura */
-@import url('https://fonts.googleapis.com/css2?family=Chathura:wght@100;300;400;700;800&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Chathura:wght@100;300;400;700;800&display=swap");
 
 /* font-family: "Chathura", sans-serif; */
 
-
 /* structure */
 
-#app{
+#app {
   width: 100vw;
   overflow-x: hidden;
 }
 
-:root{
-    --pale-pink: #fcd1d6;
-    --nav-bar-black: #000000;
-    /* Linear gradient */
-    --linear-peach-pink: #FDE8E9;
-    --linear-white: #FFFEFA;
-    --button-pink: #FFC0CB;
-
-
-
+:root {
+  --pale-pink: #fcd1d6;
+  --nav-bar-black: #000000;
+  /* Linear gradient */
+  --linear-peach-pink: #fde8e9;
+  --linear-white: #fffefa;
+  --button-pink: #ffc0cb;
 }
 
-::-webkit-scrollbar{
-    display: none;
-}
+
 ::before,
-::after{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-
-.Wrapper{
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
-    min-height: 100vh;
-    object-fit: contain;
-    background-color: var(--pale-pink);
-    margin: 0.5px;
-    padding: 0;
-    overflow-x: hidden;
-    max-width: 100vw;
-    max-height: 100%;
-    border: 2px solid black;
-
+.Wrapper {
+  background: url("https://chany4.github.io/images.Portfolio/images/me-leaves.jpg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  background-attachment: fixed;
+  object-fit: contain;
+  padding: 0;
+  overflow-x: hidden;
+  max-width: 100vw;
+  max-height: 100%;
+  border: 2px solid black;
 }
 
-
-  nav{
-    background-color: var(--light-pink);
-    z-index: 2;
-    font-family: "Chathura", sans-serif;
-    background-color: var(--nav-bar-black);
-    
-  }
-  nav:hover{
-    color: white;
-  }
-  .i{
-    padding: 20px;
-  }
-.section{
-    min-height: 100vh;
-    max-height: 100%;
-
-    background-color: var(--pale-green);
-    display: flex;
-    flex-flow: column nowrap;
-    justify-content: center;
-    border-bottom: 2px solid black;
+nav {
+  background-color: var(--light-pink);
+  z-index: 2;
+  font-family: "Chathura", sans-serif;
+  background-color: var(--nav-bar-black);
 }
-.space{
-    margin-bottom: 33vh;
+nav:hover {
+  color: white;
+}
+.i {
+  padding: 20px;
+}
+.section {
+  min-height: 100vh;
+  max-height: 100%;
 
+  background-color: rgba(97, 192, 97, 0.252);
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  border-bottom: 2px solid black;
+}
+.space {
+  margin-bottom: 33vh;
 }
 
-body, html{
-    
-    overflow-x: hidden;
-    /* margin-bottom: 60px; */
-    margin: 0;
-    padding: 0;
+body,
+html {
+  overflow-x: hidden;
+  /* margin-bottom: 60px; */
+  margin: 0;
+  padding: 0;
 }
-  #logo{
-    color: white;
-    font-size: 5rem;
-  }
+#logo {
+  color: white;
+  font-size: 5rem;
+}
 
-  footer{
-    background-color: white;
-    border-top: 1px solid black;
-    margin-top: 10px;
-    color: black;
-    padding: 20px;
-  }
-  .footer-Para{
-    margin: 5px;
-    margin-top: 10px;
-    color: black;
-  }
-  
-  #gitPic{
-    width: 50px;
-    height: 50px;
-    border: 1px;
-    border-radius: 50px;
-  }
+footer {
+  background-color: white;
+  border-top: 1px solid black;
+  margin-top: 10px;
+  color: black;
+  padding: 20px;
+}
+.footer-Para {
+  margin: 5px;
+  margin-top: 10px;
+  color: black;
+}
 
- 
-  a{
-    text-decoration: none;
-  }
+#gitPic {
+  width: 50px;
+  height: 50px;
+  border: 1px;
+  border-radius: 50px;
+}
 
-  #p{
-    font-family: "Chathura", sans-serif;
-    font-size: 2rem;
-    font-optical-sizing: auto;
-    font-style: normal;
-    font-weight: bold;
-    color: black;
-  }
-  li {
+a {
+  text-decoration: none;
+}
+
+#p {
+  font-family: "Chathura", sans-serif;
+  font-size: 2rem;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-weight: bold;
+  color: black;
+}
+li {
   font-optical-sizing: auto;
   font-weight: bold;
   font-style: normal;
   color: black;
   font-size: 1.9rem;
-  }
-
-  modal-dialog{
-    width: 800px;
-  }
-
-
- /* Landing Section */
- #Landing {
-    width: 100%;
-    max-width: max-content;
-    color: white;
 }
-#p-landing{
+
+modal-dialog {
+  width: 800px;
+}
+
+/* Landing Section */
+#Landing {
+  width: 100%;
+  max-width: max-content;
+  color: white;
+}
+#p-landing {
   color: black;
   font-size: 1.2rem;
 }
-
 
 /* Resume Section */
 
@@ -170,58 +154,56 @@ body, html{
     background-image: linear-gradient(#FFC0CB,#FFFEFA , #FFC0CB);
 }   */
 #self3 {
-    width: 50%;
-    height: 40%;
-    object-fit: cover;
-    display: block;
-    max-width: 100%;
-    padding-top:15px ;
-    border-radius: 25px;
-    border: 2px solid black;
-    padding: 0;
-    object-position: center;
+  width: 50%;
+  height: 40%;
+  object-fit: cover;
+  display: block;
+  max-width: 100%;
+  padding-top: 15px;
+  border-radius: 25px;
+  border: 2px solid black;
+  padding: 0;
+  object-position: center;
 }
 
 /* Projects */
-.space-projects{
-    background-color:var(--linear-peach-pink)
+.space-projects {
+  background-color: var(--linear-peach-pink);
 }
 
-
-   /* Media Queries */
-  
+/* Media Queries */
 
 /* xs*/
 @media only screen and (max-width: 600px) {
-    .Wrapper {
-        background-size: contain;
-    }
+  .Wrapper {
+    background-size: contain;
+  }
 }
 
 /* sm */
 @media only screen and (min-width: 600px) {
-    .Wrapper {
-        background-size: contain;
-    }
+  .Wrapper {
+    background-size: contain;
+  }
 }
 
 /* md */
 @media only screen and (min-width: 768px) {
-    .Wrapper {
-        background-size: cover;
-    }
+  .Wrapper {
+    background-size: cover;
+  }
 }
 
 /* lg */
 @media only screen and (min-width: 992px) {
-    .Wrapper {
-        background-size: cover;
-    }
+  .Wrapper {
+    background-size: cover;
+  }
 }
 
 /*xxl*/
 @media only screen and (min-width: 1200px) {
-    main {
-        background-size: contain;
-    }
+  main {
+    background-size: contain;
+  }
 }

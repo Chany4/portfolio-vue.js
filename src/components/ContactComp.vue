@@ -1,16 +1,10 @@
 <template>
   <h1 class="d-flex justify-content-center">Let's get in Touch</h1>
-  <div class="row" id="experiment">
-    <div class="col-md-4 sect1 d-none d-md-block">
-      <img
-        src="https://chany4.github.io/images.Portfolio/images/flowers_clear.png"
-        alt="flowers"
-      />
-    </div>
+  <div id="experiment">
 
-    <div class="col-md-8 py-4 px-5">
+    <div class="py-4 px-5">
       <!--  -->
-      <div class="row d-flex x">
+      <div class="row d-flex x justify-content-center">
         <h5>Contact Me</h5>
       </div>
       <!--  -->
@@ -175,6 +169,7 @@ img {
 h1 {
   font-family: "Chathura", sans-serif;
   font-size: 9rem;
+  color: white;
 }
 h5 {
   font-family: "Chathura", sans-serif;

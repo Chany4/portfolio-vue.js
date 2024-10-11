@@ -196,9 +196,6 @@ export default {
     skillsData(){
       return this.$store.state.skills
     }
-
-
-
   },
   computed:{
     geteducationData(){

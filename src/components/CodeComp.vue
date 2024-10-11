@@ -114,4 +114,8 @@ export default {
   opacity: 1;
   transform: translatey(0px);
 }
+
+::-webkit-scrollbar{
+    display: none;
+}
 </style>

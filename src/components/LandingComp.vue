@@ -2,13 +2,15 @@
   <div class="pt-5 row d-flex justify-conent-center">
     <!-- Landing Page -->
     <div
-      class="pt-5 "
+      class="pt-5"
       data-aos="zoom-in-right"
       id="Landing"
       v-for="job in jobTitleData()"
       :key="job"
     >
-      <div class="row justify-content-center align-items-center justify-conent-center">
+      <div
+        class="row justify-content-center align-items-center justify-conent-center"
+      >
         <div class="col-md-6 p-5">
           <div class="home-text">
             <h1 class="text-capitalize responsive-title">{{ job.title }}</h1>
@@ -22,12 +24,14 @@
           </div>
         </div>
         <div class="col-md-6 pt-3" id="self3-div">
-          <img
-            src="https://chany4.github.io/images.Portfolio/images/20240422_114648.jpg"
-            class="mx-auto"
-            alt="self3"
-            id="self3"
-          />
+          <div class="card">
+            <img
+              src="https://chany4.github.io/images.Portfolio/images/20240422_114648.jpg"
+              class="mx-auto"
+              alt="self3"
+              id="self3"
+            />
+          </div>
         </div>
       </div>
     </div>
@@ -113,26 +117,103 @@ p {
 }
 
 .home-text {
-    text-align: left;
+  text-align: left;
 }
 
 .responsive-title {
-    font-size: 10vw; /* Adjust based on design */
+  font-size: 10vw; /* Adjust based on design */
 }
 
 .responsive-subtitle {
-    font-size: 8vw; /* Adjust based on design */
+  font-size: 8vw; /* Adjust based on design */
 }
 
 /* Media queries for larger screens */
 @media (min-width: 768px) {
-    .responsive-title {
-        font-size: 8rem; /* Fixed size for larger screens */
-    }
+  .responsive-title {
+    font-size: 8rem; /* Fixed size for larger screens */
+  }
 
-    .responsive-subtitle {
-        font-size: 2rem; /* Fixed size for larger screens */
-    }
+  .responsive-subtitle {
+    font-size: 2rem; /* Fixed size for larger screens */
+  }
 }
 
+/* card */
+.card {
+  /* background: url("https://chany4.github.io/images.Portfolio/images/20240422_114648.jpg"); */
+  background-repeat: no-repeat;
+  background-size: cover; /* Change to cover to fill the card */
+  background-position: center;
+  background-attachment: fixed; /* This can be removed if not needed */
+  padding: 0;
+  overflow: hidden; /* Ensure no overflow */
+  width: 404px; /* Keep the width */
+  height: 404px; /* Keep the height */
+  position: relative;
+  display: flex;
+  place-content: center;
+  place-items: center;
+  border-radius: 50%; /* Make it a circle */
+}
+ 
+
+.card h2 {
+  z-index: 1;
+  color: white;
+  font-size: 2em;
+}
+
+.card::before {
+  content: "";
+  position: absolute;
+  width: 100%; /* Cover the entire card */
+  height: 100%; /* Cover the entire card */
+  background-image: conic-gradient(
+    rgb(255, 95, 170) 0%,
+    rgb(255, 125, 183) 30%,
+    rgb(255, 125, 183) 10%,
+    white 30%,
+    white 35%,
+    rgb(48, 255, 65) 35%,
+    rgb(135, 246, 104) 65%,
+    white 65%,
+    white 70%,
+    rgb(252, 109, 161) 70%,
+    rgb(253, 135, 198) 100%
+  );
+  animation: rotBGimg 3s linear infinite; /* Continuous rotation */
+  border-radius: 50%; /* Match the card's border radius */
+  z-index: 0; /* Place it behind the text */
+}
+
+@keyframes rotBGimg {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.card::after {
+  content: "";
+  position: absolute;
+  background: url("https://chany4.github.io/images.Portfolio/images/20240422_114648.jpg");
+  background-repeat: no-repeat;
+  background-size: cover; 
+  background-position: center;
+  padding: 0;
+  margin: 0;
+  background-repeat: no-repeat;
+  inset: 5px; /* Creates an inset effect */
+  border-radius: 50%; /* Match the circular shape */
+  z-index: 0; /* Keep it behind the text */
+}
+
+/* Uncomment to enable hover effect */
+/* .card:hover::before {
+    background-image: linear-gradient(180deg, rgb(81, 255, 0), purple);
+    animation: rotBGimg 3.5s linear infinite;
+} */
 </style>
