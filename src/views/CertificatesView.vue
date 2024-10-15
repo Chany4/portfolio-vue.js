@@ -8,6 +8,13 @@ export default {
     
 }
 </script>
-<style>
-    
+<style scoped>
+div{
+    width: 100vw;
+    height: 100vh;
+}
+    img{
+        width: 90%;
+        height: 80%;
+    }
 </style>
