@@ -1,5 +1,5 @@
 <template>
-  <h1 class="d-flex justify-content-center">Let's get in Touch</h1>
+  <h1 class="d-flex justify-content-center">Interested in working together ?</h1>
   <div id="experiment">
 
     <div class="py-4 px-5">

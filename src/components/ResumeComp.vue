@@ -2,7 +2,7 @@
       <!-- Resume Section -->
 
       <div class="container" id="resume" >
-        <div class="row">
+        <div class="row d-flex justify-content-center">
           <div class= "col-lg-6 d-flex flex-column align-items-start" >
             <div class="p-4 education mb-5" v-for= "education in educationData()" :key="education">
               <h5 class="display-5 fw-bold">Education</h5>
@@ -21,35 +21,35 @@
 
               <!-- Table -->
               <div class="row" id="div">
-                <div class="col-1 mx-auto align-self-center d-none d-md-block" id="div">
+                <div class="col-xl-1 mx-auto align-self-center d-none d-md-block" id="div">
                   <span>🎓</span>
                 </div>
                 <div class="d-block d-md-none mm">
                   <img src="https://chany4.github.io/images-portfolio-re/images/mondale_badge.png" alt="mondale high school badge">
                 </div>
-                <div class="col-md-3" id="div">
+                <div class="col-xl-3" id="div">
                   <p>{{education.yearMHS}}</p>
                 </div>
-                <div class="col-md-5" id="div">
+                <div class="col-xl-5" id="div">
                   <p>{{education.placeOfInstitutionMHS}}</p>
                 </div>
-                <div class="col-md-3" id="div">
+                <div class="col-xl-3" id="div">
                   <p>{{education.levelPassed}}</p>
                 </div>
 
-                <div class="col-1 mx-auto align-self-center d-none d-md-block" id="div">
+                <div class="col-xl-1 mx-auto align-self-center d-none d-md-block" id="div">
                   <span>🎓</span>
                 </div>
                 <div class="d-block d-md-none mm">
                   <img src="https://chany4.github.io/images-portfolio-re/images/Life_choices.png" alt="Life Choices Academy">
                 </div>
-                <div class="col-md-3" id="div">
+                <div class="col-xl-3" id="div">
                   <p>{{education.yearLC}}</p>
                 </div>
-                <div class="col-md-5" id="div">
+                <div class="col-xl-5" id="div">
                   <p>{{education.placeOfInstitution}}</p>
                 </div>
-                <div class="col-md-3" id="div">
+                <div class="col-xl-3" id="div">
                   <!-- <p>{{education.levelPassed}}</p> -->
                    <p>I passed with a certificate of excellence</p>
                 </div>
@@ -67,16 +67,16 @@
                 <p>{{work.descriptionPIP}}</p>
               </div>
               <div class="row" id="div">
-                <div class="col-md-1 align-self-center d-none d-md-block" >
+                <div class="col-xl-1 align-self-center d-none d-md-block" >
                   <span>📖</span>
                 </div>
                 <div class="d-block d-md-none mm">
                   <img src="https://chany4.github.io/images-portfolio-re/images/upper-edge-200x140px.jpg" alt="Upper Edge">
                 </div>
-                <div class="col-md-3" id="div">
+                <div class="col-xl-3" id="div">
                   <p>{{work.year}}</p>
                 </div>
-                <div class="col-md-8" id="div">
+                <div class="col-xl-8" id="div">
                   <p>{{work.placeOfWork}}</p>
                 </div>
               </div>
@@ -88,10 +88,10 @@
                 <div class="d-block d-md-none mm">
                   <img src="https://chany4.github.io/images-portfolio-re/images/Screenshot_20241010_095634.jpg" alt="My business">
                 </div>
-                <div class="col-md-3" id="div">
+                <div class="col-xl-3" id="div">
                   <p>{{work.yearPIP}}</p>
                 </div>
-                <div class="col-md-8" id="div">
+                <div class="col-xl-8" id="div">
                   <p>{{work.nameOfBusiness}}</p>
                 </div>
               </div>
@@ -99,7 +99,7 @@
             </div>
           </div>
 
-          <div class= "col-lg-6 d-flex flex-column align-items-start" >
+          <div class= "col-lg-6 d-flex flex-column fixThis" >
               <h1 class="p-4 mb-5 display-5 fw-bold mx-auto d-none d-lg-block">Education and Experience</h1>
             <div class="row p-4 education mb-5 w-100 d-flex justify-content-center" v-for= "education in educationData()" :key="education">
               <div class="col-sm-6">

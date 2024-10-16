@@ -24,7 +24,7 @@
           </div>
         </div>
         <div class="col-md-6 pt-3" id="self3-div">
-          <div class="card">
+          <div class="card d-none d-md-block">
             <img
               src="https://chany4.github.io/images.Portfolio/images/20240422_114648.jpg"
               class="mx-auto"
@@ -212,11 +212,6 @@ p {
   z-index: 0; /* Keep it behind the text */
 }
 
-/* Uncomment to enable hover effect */
-/* .card:hover::before {
-    background-image: linear-gradient(180deg, rgb(81, 255, 0), purple);
-    animation: rotBGimg 3.5s linear infinite;
-} */
 
 @media (min-width: 992px) { /* Assuming 'lg' starts at 992px */
     .card {

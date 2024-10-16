@@ -1,6 +1,6 @@
 <template scoped>
   <div class="app-container row">
-    <div class="card-container col-lg-3 col-md-4 col-sm-6" v-for="card in projectsData()" :key="card">
+    <div class="card-container col-lg-3 col-md-6 " v-for="card in projectsData()" :key="card">
       <div class="card my-2">
         <img :src="card.image" class="card-img-top" alt="project-image" />
         <div class="hover-text">

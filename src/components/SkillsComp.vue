@@ -7,55 +7,55 @@
           <div class="d-flex justify-content-center">
             <h4>Technical Skills</h4>
           </div>
-          <div class="col-md-3">
+          <div class="col-md-3  d-flex justify-content-center">
             <img
               src="https://chany4.github.io/images-portfolio-re/images/html.png"
               alt="html"
             />
           </div>
-          <div class="col-md-3">
+          <div class="col-md-3  d-flex justify-content-center">
             <img
               src="https://chany4.github.io/images-portfolio-re/images/css.png"
               alt="css"
             />
           </div>
-          <div class="col-md-3">
+          <div class="col-md-3 d-flex justify-content-center">
             <img
               src="https://chany4.github.io/images-portfolio-re/images/bootstrap.jpg"
               alt="bootstrap"
             />
           </div>
-          <div class="col-md-3">
+          <div class="col-md-3 d-flex justify-content-center">
             <img
               src="https://chany4.github.io/images-portfolio-re/images/vue-transparent.png"
               alt="vue"
             />
           </div>
-          <div class="col-md-3">
+          <div class="col-md-3  d-flex justify-content-center">
             <img
               src="https://chany4.github.io/images-portfolio-re/images/mysql.jpg"
               alt="mysql"
             />
           </div>
-          <div class="col-md-3">
+          <div class="col-md-3  d-flex justify-content-center">
             <img
               src="https://chany4.github.io/images-portfolio-re/images/nodejs.e.png"
               alt="node"
             />
           </div>
-          <div class="col-md-3">
+          <div class="col-md-3  d-flex justify-content-center">
             <img
               src="https://chany4.github.io/images-portfolio-re/images/figma.jpg"
               alt="figma"
             />
           </div>
-          <div class="col-md-3">
+          <div class="col-md-3  d-flex justify-content-center">
             <img
               src="https://chany4.github.io/images-portfolio-re/images/adobe.png"
               alt="adobe"
             />
           </div>
-          <div class="col-md-3">
+          <div class="col-md-3  d-flex justify-content-center">
             <img
               src="https://chany4.github.io/images.Portfolio/images/GitHub-Mark-ea2971cee799.png"
               alt="git bash"
@@ -95,13 +95,13 @@
         <div class="d-flex justify-content-center">
           <h4>Badges</h4>
         </div>
-        <div class="col-md-3">
+        <div class="col-md-3  d-flex justify-content-center">
           <img
             src="https://chany4.github.io/images-portfolio-re/images/operating-systems-basics%20(1).png"
             alt="OS systems basics"
           />
         </div>
-        <div class="col-md-3">
+        <div class="col-md-3  d-flex justify-content-center">
           <img
             src="https://chany4.github.io/images-portfolio-re/images/linux-unhatched.png"
             alt="linux unhatched"
@@ -175,9 +175,9 @@ router-link{
   text-decoration: none;
 }
 img {
-  width: 200px;
-  height: 180px;
-  margin: 2px;
+  width: 80%;
+  height: 70%;
+  margin-top: 2px;
 }
 p {
   text-align: start;

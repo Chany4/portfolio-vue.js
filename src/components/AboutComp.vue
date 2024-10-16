@@ -4,7 +4,7 @@
       <div class="container" id="about" v-for="about in aboutData()" :key="about">
         <div class="row">
           <h4 id="aboutMeLabel">About Me</h4>
-            <div class="col-md-7">
+            <div class="col-lg-7">
               
               <br />
               <p id="brief-Para">
@@ -12,7 +12,7 @@
               </p>
               <br />
             </div>
-            <div class="col-md-5">
+            <div class="col-lg-5">
               <h4>Full Name :</h4>
               <p>Chandre Leigh Davids</p>
               <br><br>
@@ -162,7 +162,7 @@ img{
   border-radius: 25px;
   border: 1px solid black;
 }
-.col-md-5{
+.col-lg-5{
   background-color: rgba(7, 83, 7, 0.625);
   border-radius: 20px;
   border: 2px solid white;
