@@ -95,16 +95,22 @@
         <div class="d-flex justify-content-center">
           <h4>Badges</h4>
         </div>
-        <div class="col-md-3  d-flex justify-content-center">
+        <div class="col-lg-3 col-md-6 d-flex justify-content-center">
           <img
             src="https://chany4.github.io/images-portfolio-re/images/operating-systems-basics%20(1).png"
             alt="OS systems basics"
           />
         </div>
-        <div class="col-md-3  d-flex justify-content-center">
+        <div class="col-lg-3 col-md-6  d-flex justify-content-center">
           <img
             src="https://chany4.github.io/images-portfolio-re/images/linux-unhatched.png"
             alt="linux unhatched"
+          />
+        </div>
+        <div class="col-lg-3 col-md-6  d-flex justify-content-center">
+          <img
+            src="https://chany4.github.io/images-portfolio-re/images/aws-skills-center-cloud-practitioner-foundations.png"
+            alt="aws"
           />
         </div>
       </div>
